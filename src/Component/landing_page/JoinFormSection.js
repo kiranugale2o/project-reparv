@@ -1,0 +1,140 @@
+export default function JoinFormSection() {
+  return (
+    <>
+      <div class="absolute flex flex-col items-center gap-[32px] lg:w-[1094px] h-[867px] lg:h-[1027px] lg:left-1/2 lg:-translate-x-[567px] lg:top-[3653px] top-[5600px]">
+        {/* Form title */}
+        <div class="flex flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
+          <div class="w-[390px] lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
+            Become A Project Partner
+          </div>
+
+          <div class="w-[358px]  lg:w-[427px] h-[62px] text-center   text-[#999999] lg:text-[#00000066] text-[16px] leading-[19px] lg:leading-[160%]  ">
+            Fill out the form below to register your interest and take the first
+            step towards a profitable partnership.
+          </div>
+
+          {/* green line */}
+          <div class="hidden lg:flex w-[100px] h-0 border-2  border-[#0BB501]"></div>
+        </div>
+
+        <div className=" box-border flex flex-col items-start w-[370px] p-3 lg:p-[32px] lg:px-[36px] lg:gap-[24px] lg:w-[703px] h-[980px] lg:h-[707px] bg-white border border-[#0000001a] rounded-[10px]">
+          {/* Register Your Interest */}
+          <div className="hidden lg:flex lg:w-[235px]  h-[36px] font-inter font-medium text-[24px] lg:leading-[150%] text-center text-[#076300]">
+            Register Your Interest
+          </div>
+          {/* Form Fields */}
+          <form>
+            <div className="flex flex-col w-full gap-0 lg:gap-6">
+              {/* Full name & contact input Fields */}
+              <div class="flex flex-col lg:flex-row items-start p-5 lg:p-0 gap-[30px] lg:w-[631px] lg:h-[84px]">
+                {/* full name input  */}
+                <div class="flex flex-col items-start gap-[14px] w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
+                  <div class="w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                    Full Name*
+                  </div>
+
+                  <div class="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
+                    <input
+                      type="text"
+                      class="w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-[#00000066]"
+                      placeholder="Enter First Name"
+                    />
+                  </div>
+                </div>
+                {/* Conatact Number input  */}
+                <div class="flex flex-col items-start gap-[14px] w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
+                  <div class="w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                    Contact Number*
+                  </div>
+                  {/* full name input  */}
+                  <div class="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
+                    <input
+                      type="text"
+                      class="w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-[#00000066]"
+                      placeholder="Enter Mobile No."
+                    />
+                  </div>
+                </div>
+              </div>
+              {/* email & city input Fields */}
+              <div class="flex flex-col lg:flex-row items-start p-5 lg:p-0 gap-[30px] lg:w-[631px] lg:h-[84px]">
+                {/* full name input  */}
+                <div class="flex flex-col items-start gap-[14px] w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
+                  <div class="w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                    Email Address*
+                  </div>
+
+                  <div class="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
+                    <input
+                      type="text"
+                      class="w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-[#00000066]"
+                      placeholder="Enter Your Email"
+                    />
+                  </div>
+                </div>
+                {/* Conatact Number input  */}
+                <div class="flex flex-col items-start gap-[14px] w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
+                  <div class="w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                    City*
+                  </div>
+                  {/* full name input  */}
+                  <div class="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
+                    <input
+                      type="text"
+                      class="w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-[#00000066]"
+                      placeholder="Enter Mobile No."
+                    />
+                  </div>
+                </div>
+              </div>
+              {/* Years of Experience selected field */}
+              <div className="flex flex-col items-start gap-[14px] lg:w-[631px] lg:h-[84px]">
+                <div className="lg:w-[300.5px] px-5 lg:px-0 h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                  How Many Years of Experience? *
+                </div>
+                <div class="lg:w-[620.5px] w-[300px] ml-5 lg:ml-0">
+                  <select
+                    id="dropdown"
+                    name="dropdown"
+                    class="mt-1 p-5 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm  text-sm"
+                  >
+                    <option value="">Select...</option>
+                    <option value="option1">Less then 1 Year</option>
+                    <option value="option2">1-3 years</option>
+                    <option value="option3">3-5 years</option>
+                    <option value="option2">5-10 years</option>
+                    <option value="option3">More then 10 years</option>
+                  </select>
+                </div>
+              </div>
+              {/* Message Fields */}
+              <div class="flex flex-col items-start gap-[16px] lg:w-[631px] h-[156px] flex-none order-3 self-stretch flex-grow-0">
+                <div class="lg:w-[631px] p-4 lg:p-0 h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                  Message
+                </div>
+                <div class="flex flex-row items-start mx-auto   gap-[12px] w-[300px]  lg:w-[631px] h-[122px] border border-[#00000033] rounded-[6px] flex-none order-1 self-stretch flex-grow-0">
+                  <input
+                    type="text"
+                    class="w-[350px] h-[120px] lg:w-[631px] hover:border hover:border-[#00000033] h-[90px] text-[14px] font-medium leading-[20px] text-[#666666]"
+                    placeholder="Enter Your Message here..."
+                  />
+                </div>
+              </div>
+            </div>
+            {/* Submit Button */}
+            <div className="flex mx-auto mt-10 lg:mt-5 flex-row justify-center items-center p-[20px] px-[34px] gap-[67px] w-[151px] h-[32px] bg-[#2ECD24] rounded-[6px]">
+              <button className="w-[83px] h-[24px] font-inter font-semibold text-[18px] leading-[24px] text-white">
+                Submit
+              </button>
+            </div>
+            {/* footer */}
+            <div className="lg:w-[495px] mt-5 h-[15px]  mx-auto font-normal text-[12px] leading-[15px] text-[#00000066]">
+              By registering, you'll proceed to the payment page to complete the
+              registration process
+            </div>
+          </form>
+        </div>
+      </div>
+    </>
+  );
+}
