@@ -1,4 +1,3 @@
-import { VideoSvg } from "@/images/herosection_svg.js";
 import { Herr_Von_Muellerhoff } from "next/font/google";
 
 export default function HeroSection() {
