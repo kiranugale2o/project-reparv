@@ -1,7 +1,7 @@
 import LogoSvg from "@/images/logo";
 export default function Footer() {
   return (
-    <div class=" flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full h-[300px] lg:h-[486px] left-0 top-[6750px] lg:top-[4681px] bg-black">
+    <div class=" flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full  h-[486px] left-0 top-[6750px] lg:top-[4681px] bg-black">
       {/* logo */}
       <div class="flex flex-row items-start p-5 md:w-[180px] h-[90px] lg:p-0 lg:w-[137.58px] lg:h-[58px] flex-none order-0 flex-grow-0">
         <img src="/footerlogo.png" alt="logo" className="w-full h-full" />
@@ -10,14 +10,14 @@ export default function Footer() {
       <div class="flex flex-col lg:flex-row justify-between items-start p-0 gap-[98px] w-full h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
         {/* menu 1 */}
         <div className="flex flex-col gap-5 mt-10 lg:mt-0">
-          <div class="absolute  md:top-[20px] md:left-[70%] top-[20px] justify-between left-[230px] lg:static flex flex-col items-start p-0 gap-[30px] mx-auto w-[96px] h-[166px] flex-none order-0 flex-grow-0">
+          <div class="absolute  md:top-[20px] md:left-[70%] top-[50px] justify-between left-[230px] lg:static flex flex-col items-start p-0 gap-[30px] mx-auto w-[96px] h-[166px] flex-none order-0 flex-grow-0">
             <div class="hidden lg:flex w-[93px] h-[24px] text-white font-inter font-bold text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0">
               Company
             </div>
             <div class="flex flex-col items-start p-0 gap-[20px] w-[96px] h-[112px] flex-none order-1 flex-grow-0">
               <a
                 href="#"
-                class="w-[89px] h-[24px] text-white font-inter font-medium text-[15px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0"
+                class="w-[89px] h-[24px] text-white font-inter font-medium text-[12px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0"
               >
                 Properties
               </a>
@@ -30,14 +30,14 @@ export default function Footer() {
 
               <a
                 href="#"
-                class="w-[80px] h-[24px] text-white font-inter font-medium text-[15px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-1 flex-grow-0"
+                class="w-[80px] h-[24px] text-white font-inter font-medium text-[12px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-1 flex-grow-0"
               >
                 About Us
               </a>
 
               <a
                 href="#"
-                class="w-[103px] h-[24px] text-white font-inter font-medium text-[15px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-2 flex-grow-0"
+                class="w-[103px] h-[24px] text-white font-inter font-medium text-[12px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-2 flex-grow-0"
               >
                 Conatact Us
               </a>
