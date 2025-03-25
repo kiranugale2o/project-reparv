@@ -17,7 +17,7 @@ export default function JoinFormSection() {
           <div class="hidden lg:flex w-[100px] h-0 border-2  border-[#0BB501]"></div>
         </div>
 
-        <div className="  box-border  md:ml-5  lg:ml-10 lg:ml-0 lg:left-[1%] flex flex-col items-center w-full   p-5 lg:p-[32px] lg:px-[36px] lg:gap-[24px] lg:w-[703px] h-[980px] lg:h-[707px] bg-white border border-[#0000001a] rounded-[10px]">
+        <div className="  box-border  md:ml-0  lg:ml-10 lg:ml-0 lg:left-[1%] flex flex-col items-center w-full   p-5 lg:p-[32px] lg:px-[36px] lg:gap-[24px] lg:w-[703px] h-[980px] lg:h-[707px] bg-white border border-[#0000001a] rounded-[10px]">
           {/* Register Your Interest */}
           <div className="hidden lg:flex lg:w-[235px]  h-[36px] font-inter font-medium text-[24px] lg:leading-[150%] text-center text-[#076300]">
             Register Your Interest
