@@ -114,7 +114,7 @@ export default function MarketReality() {
           </div>
         </div>
 
-        {/* Second Row Cards */}
+        {/* Second Row Cards with */}
         <div class=" flex flex-col p-2 lg:ml-0 lg:flex-row items-center mt-10 gap-[30px] lg:w-[746px] h-[300px]">
           <div class="flex flex-col items-start p-4 gap-[16px] lg:w-[358px] h-[280px] bg-white border border-[rgba(0,0,0,0.1)] shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             {/* Icon */}

@@ -130,7 +130,7 @@ export default function JoinFormSection() {
             {/* footer */}
             <div className="lg:w-[495px] mt-5 h-[15px]  mx-auto font-normal text-[12px] leading-[15px] text-[#00000066]">
               By registering, you'll proceed to the payment page to complete the
-              registration process
+              registration process.
             </div>
           </form>
         </div>
