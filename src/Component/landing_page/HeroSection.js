@@ -54,7 +54,7 @@ export default function HeroSection() {
           <div class="absolute w-[350px]    md:left-[10%] md:w-[380px] px-3 lg:p-0 lg:w-[500px] h-[250px]  lg:left-[60%] lg:top-[154px] top-[280px] filter drop-shadow-[0px_4px_8px_rgba(0,_0,_0,_0.1)]">
             <img src="/hero_section_video.png" alt="video" />
             {/* Video icon svg */}
-            <div class="absolute w-[57.71px] h-[65.49px] left-[170px] lg:left-[225.06px] top-[80px] lg:top-[109.66px] ">
+            <div class="absolute w-[57.71px] h-[65.49px] left-[150px] lg:left-[225.06px] top-[70px] lg:top-[109.66px] ">
               <img src="/videoicon.png" alt="videoIcon" />
             </div>
           </div>
