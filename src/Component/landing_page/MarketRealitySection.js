@@ -2,14 +2,14 @@ import { MarketRealityCardData } from "@/utils";
 
 export default function MarketReality() {
   return (
-    <div class="absolute flex flex-col items-center p-0 gap-8  w-full  h-[518px]  top-[1100px] lg:top-[1358px]">
+    <div class="absolute flex flex-col justify-between items-center p-0 gap-8  w-full  h-[518px]  top-[1100px] lg:top-[1358px]">
       {/* Market Reality Heading  */}
       <div class="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
-        <div class="w-[390px] lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
+        <div class="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
           Market Reality
         </div>
 
-        <div class="p-2 lg:w-[534px] h-[48px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
+        <div class="p-2 lg:w-[534px] h-[78px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
           The current real estate market faces significant challenges that
           impact investors and businesses.
         </div>

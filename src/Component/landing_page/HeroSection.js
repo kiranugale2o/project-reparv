@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <div
       id="home"
-      className="flex  justify-between w-full flex-col bg-[url('/herosection_back.png')] bg-repeat-y bg-cover bg-contain  h-[530px] lg:h-[650px]  "
+      className="flex   justify-between w-full flex-col bg-[url('/herosection_back.png')] bg-repeat-y bg-cover bg-contain  h-[530px] lg:h-[650px]  "
     >
       <div className="flex w-full  md:w-full  ">
         <div className="flex flex-col">
@@ -32,8 +32,8 @@ export default function HeroSection() {
         </div>
 
         {/* Register Button */}
-        <div class=" absolute  mt-0 flex flex-row justify-center items-center lg:p-[14px_24px] gap-[1px]  w-[237px] h-[48px] lg:h-[58px]  left-[30%] lg:left-[152px] top-[550px] lg:top-[371px] bg-[#0BB501]    rounded-[8px]">
-          <p class="w-[104px]  font-inter font-semibold lg:w-[155px] flex  lg:h-[29px]  text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0">
+        <div class=" absolute  mt-0 flex flex-row justify-center items-center lg:p-[14px_24px] gap-[1px]  w-[237px] h-[48px] lg:h-[58px] left-[20%]  md:left-[30%] lg:left-[152px] top-[550px] lg:top-[371px] bg-[#0BB501]    rounded-[8px]">
+          <p class="lg:w-[104px] item-start  font-inter font-semibold lg:w-[155px] flex  lg:h-[29px]  text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0">
             Register Now{" "}
           </p>
           <svg
@@ -52,7 +52,7 @@ export default function HeroSection() {
 
         {/* HeroSection Video */}
         <div className=" flex flex-col ">
-          <div class="absolute md:left-[20%] w-[390px] px-3 lg:p-0 lg:w-[500px] h-[250px]  lg:left-[60%] lg:top-[154px] top-[280px] filter drop-shadow-[0px_4px_8px_rgba(0,_0,_0,_0.1)]">
+          <div class="absolute w-[350px]    md:left-[10%] md:w-[380px] px-3 lg:p-0 lg:w-[500px] h-[250px]  lg:left-[60%] lg:top-[154px] top-[280px] filter drop-shadow-[0px_4px_8px_rgba(0,_0,_0,_0.1)]">
             <img src="/hero_section_video.png" alt="video" />
             {/* Video icon svg */}
             <div class="absolute w-[57.71px] h-[65.49px] left-[170px] lg:left-[225.06px] top-[80px] lg:top-[109.66px] ">

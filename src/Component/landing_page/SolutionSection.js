@@ -1,9 +1,9 @@
 export default function SolutionSection() {
   return (
     //   {/* Solution Reparv Section */}
-    <div class="absolute flex flex-col items-center p-0 gap-8 w-full top-[2850px]  lg:top-[2248px]">
+    <div class="absolute flex flex-col lg:items-center p-0 gap-8 w-full top-[2850px]  lg:top-[2248px]">
       <div class="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
-        <div class="w-[390px] lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
+        <div class="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
           Solution in Reparv
         </div>
 
@@ -17,7 +17,7 @@ export default function SolutionSection() {
       </div>
 
       {/* Cards oF Solution section */}
-      <div className="flex lg:p-0 lg:ml-0 lg:mx-20   flex-col w-full items-center">
+      <div className="p-3 flex lg:p-0 lg:ml-0 lg:mx-20   flex-col w-full items-center">
         {/* Cards */}
         <div class="flex flex-col lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
@@ -182,17 +182,17 @@ export default function SolutionSection() {
       {/* Become Project Partner Section  */}
       <div
         id=""
-        class="projectpartner lg:mt-10 mt-90  w-full   lg:p-10  md:h-[900px] sm:w-full md:w-full h-[900px] lg:h-[370px]  bg-[#076300]   flex flex-col items-start "
+        class=" projectpartner lg:mt-10 mt-90  w-full   lg:p-10  md:h-[900px] w-full md:w-full h-[900px] lg:h-[370px]  bg-[#076300]   flex flex-col lg:items-start "
       >
         {/* title */}
-        <h1 class="w-[330px] lg:w-full  p-5 mx-auto lg:p-0 h-[48px] text-center text-white font-semibold text-[28px] lg:text-[40px] leading-[48px]">
+        <h1 class="w-full lg:w-full  p-5 mx-auto lg:p-0 h-[48px] text-center text-white font-semibold text-[28px] lg:text-[40px] leading-[48px]">
           Who Will Become An Project Partner?
         </h1>
 
         {/* Project Partner Cards */}
-        <div class=" greencard relative flex  w-full mt-20 px-5 mx-auto lg:mt-5 flex-col md:flex-col md:w-full lg:flex-row items-center lg:ml-10 gap-[30px] lg:w-full   h-[268px]">
+        <div class=" greencard relative flex  w-full mt-20 lg:px-5  lg:mt-5 flex-col md:flex-col md:w-full lg:flex-row items-center lg:ml-10 gap-[30px] lg:w-full   h-[268px]">
           {/* card 1 */}
-          <div class="flex  flex-col items-start p-[24px] gap-[16px] ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div class="flex  flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div class="relative w-[38px] h-[38px]">
               <div class="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
               <div class="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
@@ -200,17 +200,17 @@ export default function SolutionSection() {
               </div>
             </div>
 
-            <div class="w-[344px] h-[30px] text-[20px] font-semibold text-white leading-[150%]">
+            <div class="w-full h-[30px] text-[20px] font-semibold text-white leading-[150%]">
               Real Estate Professionals
             </div>
 
-            <div class="w-[286px] h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
+            <div class="w-full h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
               Experienced agents and brokers looking to expand their reach and
               leverage advanced technology tools.
             </div>
           </div>
           {/* card 2 */}
-          <div class="flex flex-col items-start p-[24px] gap-[16px] ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div class="flex flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div class="relative w-[38px] h-[38px]">
               <div class="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
               <div class="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
@@ -218,25 +218,25 @@ export default function SolutionSection() {
               </div>
             </div>
 
-            <div class="w-[344px] h-[30px] text-[20px] font-semibold text-white leading-[150%]">
+            <div class="w-full lg:w-[344px] h-[30px] text-[20px] font-semibold text-white leading-[150%]">
               Property Developers
             </div>
 
-            <div class="w-[286px] h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
+            <div class="w-full lg:w-[286px] h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
               Builders and developers seeking reliable marketing and sales
               support to enhance project visibility.
             </div>
           </div>
           {/* card 3 */}
-          <div class="flex flex-col items-start p-[24px] gap-[16px] ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
-            <div class="relative w-[38px] h-[38px]">
+          <div class="flex flex-col items-start py-6 px-2  md:p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+            <div class="relative  w-[38px] h-[38px]">
               <div class="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
               <div class="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
                 3
               </div>
             </div>
 
-            <div class="w-[344px] h-[30px] text-[20px] font-semibold text-white leading-[150%]">
+            <div class="w-[344px] h-[30px] lg:h-[30px] md:h-[30px] text-[20px] font-semibold text-white leading-[150%]">
               Investment Consultants
             </div>
 
