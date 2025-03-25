@@ -7,7 +7,7 @@ export default function Footer() {
         <img src="/footerlogo.png" alt="logo" className="w-full h-full" />
       </div>
       {/* footer menu */}
-      <div class="flex flex-col lg:flex-row justify-between items-start p-0 gap-[98px] w-full h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
+      <div class="flex flex-col lg:flex-row justify-between items-start p-0 gap-[98px] w-full lg:h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
         {/* menu 1 */}
         <div className="flex flex-col gap-5 mt-10 lg:mt-0">
           <div class="absolute  md:top-[20px] md:left-[70%] top-[50px] justify-between left-[230px] lg:static flex flex-col items-start p-0 gap-[30px] mx-auto w-[96px] h-[166px] flex-none order-0 flex-grow-0">
@@ -23,7 +23,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                class="lg:hidden w-[114px] h-[24px] text-white font-inter font-medium text-[15px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-1 flex-grow-0"
+                class="lg:hidden w-[114px] h-[24px] text-white font-inter font-medium text-[12px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-1 flex-grow-0"
               >
                 Join Our team
               </a>
