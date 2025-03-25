@@ -1,6 +1,6 @@
 export default function ProjectPartner() {
   return (
-    <div class="absolute flex flex-col items-center p-0 gap-8 w-full  h-[518px]   top-[650px] md:top-[700px] lg:top-[700px]">
+    <div class="absolute flex flex-col lg:items-center md:item-center p-0 gap-8 w-full  h-[518px]   top-[650px] md:top-[700px] lg:top-[700px]">
       <div class="flex mx-auto flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
         <div class="w-[390px] lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
           Who is a Project Partner?
