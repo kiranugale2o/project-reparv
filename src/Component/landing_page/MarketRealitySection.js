@@ -2,7 +2,7 @@ import { MarketRealityCardData } from "@/utils";
 
 export default function MarketReality() {
   return (
-    <div class="absolute flex flex-col items-center p-0 gap-8  w-full  h-[518px]  top-[1100px] lg:top-[1358px]">
+    <div class="absolute flex flex-col p-0 gap-8  w-full  h-[518px]  top-[1100px] lg:top-[1358px]">
       {/* Market Reality Heading  */}
       <div class="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
         <div class="w-[390px] lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
