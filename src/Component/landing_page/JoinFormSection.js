@@ -37,7 +37,7 @@ export default function JoinFormSection() {
                     <input
                       type="text"
                       class="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-[#00000066]"
-                      placeholder="Enter First Name"
+                      placeholder="Enter Full Name"
                     />
                   </div>
                 </div>
@@ -46,7 +46,7 @@ export default function JoinFormSection() {
                   <div class="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
                     Contact Number*
                   </div>
-                  {/* full name input  */}
+                  {/* contact number input  */}
                   <div class="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
                     <input
                       type="text"
@@ -77,12 +77,12 @@ export default function JoinFormSection() {
                   <div class="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
                     City*
                   </div>
-                  {/* full name input  */}
+                  {/* city name input  */}
                   <div class="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
                     <input
-                      type="text"
+                      type="number"
                       class="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-[#00000066]"
-                      placeholder="Enter Mobile No."
+                      placeholder="Enter City Name"
                     />
                   </div>
                 </div>
