@@ -9,7 +9,7 @@ export default function Footer() {
       {/* footer menu */}
       <div class="flex flex-col lg:flex-row justify-between items-start p-0 gap-[98px] w-full h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
         {/* menu 1 */}
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 mt-10 lg:mt-0">
           <div class="absolute  md:top-[20px] md:left-[70%] top-[20px] justify-between left-[230px] lg:static flex flex-col items-start p-0 gap-[30px] mx-auto w-[96px] h-[166px] flex-none order-0 flex-grow-0">
             <div class="hidden lg:flex w-[93px] h-[24px] text-white font-inter font-bold text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0">
               Company
