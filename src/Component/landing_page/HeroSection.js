@@ -31,10 +31,10 @@ export default function HeroSection() {
         </div>
 
         {/* Register Button */}
-        <div class=" absolute  mt-0 flex flex-row justify-center items-center lg:p-[14px_24px] gap-[1px]  w-[237px] h-[48px] lg:h-[58px] left-[20%]  md:left-[30%] lg:left-[152px] top-[550px] lg:top-[371px] bg-[#0BB501]    rounded-[8px]">
-          <p class="lg:w-[104px] item-start  font-inter font-semibold lg:w-[155px] flex  lg:h-[29px]  text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0">
+        <div class=" absolute w-[237px] flex flex-row justify-center items-center p-[14px_24px] gap-[1px] h-[48px] lg:h-[58px] left-[17%]  md:left-[40%]  lg:left-[152px] top-[550px] lg:top-[371px] bg-[#0BB501]    rounded-[8px]">
+          <button class="lg:w-[104px] item-start  font-inter font-semibold lg:w-[155px] flex  lg:h-[29px]  text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0">
             Register Now{" "}
-          </p>
+          </button>
           <svg
             width="34"
             height="34"

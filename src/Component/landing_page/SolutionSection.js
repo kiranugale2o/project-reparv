@@ -185,7 +185,7 @@ export default function SolutionSection() {
       {/* Become Project Partner Section  */}
       <div
         id=""
-        class=" projectpartner lg:mt-10 mt-90  w-full   lg:p-10  md:h-[900px] w-full md:w-full h-[900px] lg:h-[370px]  bg-[#076300]   flex flex-col lg:items-start "
+        class=" projectpartner lg:mt-10 mt-80 lg:mt-0 w-full   lg:p-10  md:h-[900px] w-full md:w-full h-[900px] lg:h-[370px]  bg-[#076300]   flex flex-col lg:items-start "
       >
         {/* title */}
         <h1 class="w-full lg:w-full  p-5 mx-auto lg:p-0 h-[48px] text-center text-white font-semibold text-[28px] lg:text-[40px] leading-[48px]">
@@ -193,7 +193,7 @@ export default function SolutionSection() {
         </h1>
 
         {/* Project Partner Cards */}
-        <div class=" greencard relative flex  w-full mt-20 lg:px-5  lg:mt-5 flex-col md:flex-col md:w-full lg:flex-row items-center lg:ml-10 gap-[30px] lg:w-full   h-[268px]">
+        <div class=" greencard relative flex  w-full mt-20 lg:px-12  lg:mt-5 flex-col md:flex-col md:w-full lg:flex-row items-center  gap-[30px] lg:w-full   h-[268px]">
           {/* card 1 */}
           <div class="flex  flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div class="relative w-[38px] h-[38px]">

@@ -7,14 +7,15 @@ export default function Footer() {
         <img src="/footerlogo.png" alt="logo" className="w-full h-full" />
       </div>
       {/* footer menu */}
-      <div class="flex flex-col lg:flex-row justify-between items-start p-0 gap-[8px] w-full h-[180px] lg:h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
+      <div class="flex flex-col lg:flex-row justify-between  items-start p-0 gap-[8px] w-full h-[180px] lg:h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
         {/* menu 1 */}
-        <div className="flex flex-col gap-5 mt-10 lg:mt-0">
-          <div class="absolute  md:top-[20px] md:left-[70%] top-[50px] justify-between left-[230px] lg:static flex flex-col items-start p-0 gap-[30px] mx-auto w-[96px] h-[166px] flex-none order-0 flex-grow-0">
+        <div className="flex flex-col gap-5mt-10 lg:mt-0">
+          <div class="absolute md:top-[20px] md:mx-auto top-[50px]  justify-between left-[230px] lg:static flex flex-col  p-0 gap-[30px] mx-auto w-[96px] h-[166px] ">
             <div class="hidden lg:flex w-[93px] h-[24px] text-white font-inter font-bold text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0">
               Company
             </div>
-            <div class="flex flex-col items-start p-0 gap-[20px] w-[96px] h-[112px] flex-none order-1 flex-grow-0">
+
+            <div class="flex flex-col items-start p-0 gap-[20px] w-[96px] h-[112px] ">
               <a
                 href="#"
                 class="w-[89px] h-[24px] text-white font-inter font-medium text-[12px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0"
@@ -65,7 +66,7 @@ export default function Footer() {
         {/* menu 3 */}
         <div className=" flex flex-col lg:justify-center items-start p-0 gap-[30px] mx-auto lg:w-[238px] h-[106px] flex-none order-2 flex-grow-0">
           {/* Social Link */}
-          <div className="w-[130px] lg:w-[104px] h-[24px] text-white font-inter font-bold text-[20px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0">
+          <div className="mx-auto lg:w-[104px] h-[24px] text-white font-inter font-bold text-[20px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0">
             Social Link
           </div>
 
@@ -135,7 +136,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div class="w-full flex flex-col   lg:flex-row items-start lg:mt-5 lg:mt-0 p-4 lg:gap-[38px]  lg:w-[1136px] h-[44px] flex-none order-2 align-self-stretch flex-grow-0">
+      <div class="w-full flex flex-col   lg:flex-row justify-center item-center mx-auto lg:mt-5 lg:mt-0 p-4 lg:gap-[38px]   lg:w-[1136px] h-[44px] flex-none order-2 align-self-stretch flex-grow-0">
         <p class="w-full lg:w-[323px] h-[24px] font-inter font-medium text-[12px] lg:text-[18px] lg:leading-[24px] tracking-[-0.006em] text-white/60 flex-none order-0 flex-grow-0">
           @2024 reparv.com All Right Reserved
         </p>
