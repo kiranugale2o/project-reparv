@@ -92,11 +92,11 @@ export default function JoinFormSection() {
                 <div className="lg:w-full lg:w-[300.5px] px-5 lg:px-0 h-[18px] text-black text-[12px] font-medium leading-[150%]">
                   How Many Years of Experience? *
                 </div>
-                <div class="lg:w-[620.5px] w-full ml-5 lg:ml-0">
+                <div class=" flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px] ">
                   <select
                     id="dropdown"
                     name="dropdown"
-                    class="mt-1 p-5 block  w-[280px] lg:w-full px-3 :py-2 border border-gray-300 rounded-md shadow-sm  text-sm"
+                    class="mt-1 p-5 block   w-full px-3 :py-2 border border-gray-300 rounded-md shadow-sm  text-sm"
                   >
                     <option value="">Select...</option>
                     <option value="option1">Less then 1 Year</option>
