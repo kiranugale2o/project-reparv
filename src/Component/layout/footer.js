@@ -17,27 +17,27 @@ export default function Footer() {
             <div class="flex flex-col items-start p-0 gap-[20px] w-[96px] h-[112px] flex-none order-1 flex-grow-0">
               <a
                 href="#"
-                class="w-[89px] h-[24px] text-white font-inter font-medium text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0"
+                class="w-[89px] h-[24px] text-white font-inter font-medium text-[15px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0"
               >
                 Properties
               </a>
               <a
                 href="#"
-                class="lg:hidden w-[114px] h-[24px] text-white font-inter font-medium text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-1 flex-grow-0"
+                class="lg:hidden w-[114px] h-[24px] text-white font-inter font-medium text-[15px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-1 flex-grow-0"
               >
                 Join Our team
               </a>
 
               <a
                 href="#"
-                class="w-[80px] h-[24px] text-white font-inter font-medium text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-1 flex-grow-0"
+                class="w-[80px] h-[24px] text-white font-inter font-medium text-[15px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-1 flex-grow-0"
               >
                 About Us
               </a>
 
               <a
                 href="#"
-                class="w-[103px] h-[24px] text-white font-inter font-medium text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-2 flex-grow-0"
+                class="w-[103px] h-[24px] text-white font-inter font-medium text-[15px] lg:text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-2 flex-grow-0"
               >
                 Conatact Us
               </a>
