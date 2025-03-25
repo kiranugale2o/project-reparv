@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full ">
+    <div className="w-full m-0 p-0 ">
       <HeroSection />
       <ProjectPartner />
       <MarketReality />

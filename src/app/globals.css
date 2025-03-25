@@ -120,3 +120,12 @@
     @apply bg-background text-foreground;
   }
 }
+@media (min-width: 1900px) {
+  .join {
+    left: 30%;
+  }
+  .greencard {
+    width: 700px;
+    left: 20%;
+  }
+}

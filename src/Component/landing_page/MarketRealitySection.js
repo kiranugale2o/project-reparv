@@ -2,14 +2,14 @@ import { MarketRealityCardData } from "@/utils";
 
 export default function MarketReality() {
   return (
-    <div class="absolute flex flex-col items-center p-0 gap-8  w-full lg:w-[1007px] h-[518px] lg:left-[132px] top-[1100px] lg:top-[1358px]">
-      <div class="flex flex-col justify-center items-center p-0 gap-4 lg:w-[634px] h-[128px]">
-        {/* Market Reality Heading */}
-        <div class="lg:w-[534px] h-[48px] text-[#076300] text-[40px] font-semibold leading-[48px] text-center">
+    <div class="absolute flex flex-col items-center p-0 gap-8  w-full  h-[518px]  top-[1100px] lg:top-[1358px]">
+      {/* Market Reality Heading  */}
+      <div class="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
+        <div class="w-[390px] lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
           Market Reality
         </div>
 
-        <div class="lg:w-[534px] h-[48px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
+        <div class="p-2 lg:w-[534px] h-[48px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
           The current real estate market faces significant challenges that
           impact investors and businesses.
         </div>
@@ -17,9 +17,9 @@ export default function MarketReality() {
         {/* green line */}
         <div class="w-[100px] h-0 border-[2px]  border-[#0BB501]"></div>
       </div>
-      <div className="flex flex-col  w-full items-center">
+      <div className="flex relative flex-col mx-auto w-full items-center">
         {/* Cards */}
-        <div class="flex flex-col ml-10 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+        <div class="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
           <div class="flex flex-col items-start p-4 gap-4 lg:w-[358px] h-[280px]  bg-white bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
@@ -115,7 +115,7 @@ export default function MarketReality() {
         </div>
 
         {/* Second Row Cards */}
-        <div class=" flex flex-col ml-10 lg:ml-0 lg:flex-row items-center mt-10 gap-[30px] lg:w-[746px] h-[300px]">
+        <div class=" flex flex-col p-2 lg:ml-0 lg:flex-row items-center mt-10 gap-[30px] lg:w-[746px] h-[300px]">
           <div class="flex flex-col items-start p-4 gap-[16px] lg:w-[358px] h-[280px] bg-white border border-[rgba(0,0,0,0.1)] shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             {/* Icon */}
             <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">

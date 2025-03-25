@@ -1,10 +1,10 @@
 export default function JoinFormSection() {
   return (
     <>
-      <div class="absolute flex flex-col items-center gap-[32px] lg:w-[1094px] h-[867px] lg:h-[1027px] lg:left-1/2 lg:-translate-x-[567px] lg:top-[3653px] top-[5600px]">
+      <div class=" absolute flex flex-col w-full item-center  lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3603px] top-[5700px]">
         {/* Form title */}
-        <div class="flex flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
-          <div class="w-[390px] lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
+        <div class="flex relative lg:left-[1%] md:left-[5%]  flex-col justify-center items-center p-0 gap-4 lg:w-[307px] h-[152px]">
+          <div class="  w-[350px] lg:w-[650px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
             Become A Project Partner
           </div>
 
@@ -17,7 +17,7 @@ export default function JoinFormSection() {
           <div class="hidden lg:flex w-[100px] h-0 border-2  border-[#0BB501]"></div>
         </div>
 
-        <div className=" box-border flex flex-col items-start w-[370px] p-3 lg:p-[32px] lg:px-[36px] lg:gap-[24px] lg:w-[703px] h-[980px] lg:h-[707px] bg-white border border-[#0000001a] rounded-[10px]">
+        <div className="  box-border  ml-5  lg:ml-10 lg:ml-0 lg:left-[1%] flex flex-col items-center w-[380px]  p-5 lg:p-[32px] lg:px-[36px] lg:gap-[24px] lg:w-[703px] h-[980px] lg:h-[707px] bg-white border border-[#0000001a] rounded-[10px]">
           {/* Register Your Interest */}
           <div className="hidden lg:flex lg:w-[235px]  h-[36px] font-inter font-medium text-[24px] lg:leading-[150%] text-center text-[#076300]">
             Register Your Interest
