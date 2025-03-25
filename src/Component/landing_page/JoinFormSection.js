@@ -96,7 +96,7 @@ export default function JoinFormSection() {
                   <select
                     id="dropdown"
                     name="dropdown"
-                    class="mt-1 p-5 block  w-[300px] lg:w-full px-3 :py-2 border border-gray-300 rounded-md shadow-sm  text-sm"
+                    class="mt-1 p-5 block  w-[280px] lg:w-full px-3 :py-2 border border-gray-300 rounded-md shadow-sm  text-sm"
                   >
                     <option value="">Select...</option>
                     <option value="option1">Less then 1 Year</option>
