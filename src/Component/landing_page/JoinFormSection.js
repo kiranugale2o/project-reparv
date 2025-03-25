@@ -92,7 +92,7 @@ export default function JoinFormSection() {
                 <div className="lg:w-full lg:w-[300.5px] px-5 lg:px-0 h-[18px] text-black text-[12px] font-medium leading-[150%]">
                   How Many Years of Experience? *
                 </div>
-                <div class="lg:w-[620.5px] w-[300px] ml-5 lg:ml-0">
+                <div class="lg:w-[620.5px] w-full ml-5 lg:ml-0">
                   <select
                     id="dropdown"
                     name="dropdown"
