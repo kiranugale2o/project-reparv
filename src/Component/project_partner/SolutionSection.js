@@ -1,32 +1,32 @@
 export default function SolutionSection() {
   return (
     //   {/* Solution Reparv Section */}
-    <div class="absolute flex flex-col lg:items-center p-0 gap-8 w-full top-[2850px]  lg:top-[2248px]">
-      <div class="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
-        <div class="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
+    <div className="absolute flex flex-col lg:items-center p-0 gap-8 w-full top-[2850px]  lg:top-[2248px]">
+      <div className="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
+        <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
           Solution in Reparv
         </div>
 
-        <div class=" px-5 mx-auto lg:px-0 lg:w-[534px] h-[48px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
+        <div className=" px-5 mx-auto lg:px-0 lg:w-[534px] h-[48px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
           Reparv offers comprehensive solutions to overcome the challenges faced
           by real estate professionals.
         </div>
 
         {/* green line */}
-        <div class="w-[100px] mt-4 lg:mt-0 h-0 border-[2px] lg:border-[2px] border-[#0BB501]"></div>
+        <div className="w-[100px] mt-4 lg:mt-0 h-0 border-[2px] lg:border-[2px] border-[#0BB501]"></div>
       </div>
 
       {/* Cards oF Solution section */}
       <div className="p-3 flex lg:p-0 lg:ml-0 lg:mx-20   flex-col w-full items-center">
         {/* Cards */}
-        <div class="flex flex-col lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+        <div className="flex flex-col lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
           <div
-            class="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px] 
+            className="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px] 
   hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white  border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]"
           >
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full    bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full    bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
                 <svg
                   width="24"
                   height="24"
@@ -43,11 +43,11 @@ export default function SolutionSection() {
               </div>
             </div>
 
-            <div class="w-[233px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[233px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Customer Reach
             </div>
 
-            <div class="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Customer reach in the real estate business with Reparv's trusted
               approach depends on effective marketing, a strong digital
               presence, and strategic network expansion to connect with
@@ -55,9 +55,9 @@ export default function SolutionSection() {
             </div>
           </div>
           {/* Card 2 */}
-          <div class="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
+          <div className="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
                 <svg
                   width="24"
                   height="25"
@@ -74,20 +74,20 @@ export default function SolutionSection() {
               </div>
             </div>
 
-            <div class="lg:w-[273px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="lg:w-[273px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Skilled Sales Workforce
             </div>
 
-            <div class="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Skilled Sales Workforce Reparv's skilled sales workforce ensures
               trust, transparency, and expert guidance, delivering seamless real
               estate experiences for buyers and investors.
             </div>
           </div>
           {/* Card 3 */}
-          <div class="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
+          <div className="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
                 <svg
                   width="24"
                   height="24"
@@ -104,11 +104,11 @@ export default function SolutionSection() {
               </div>
             </div>
 
-            <div class="lg:w-[283px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="lg:w-[283px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Marketing Support
             </div>
 
-            <div class="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Reparv's marketing support empowers partners with strategic
               promotions, digital reach, and trusted branding to maximize real
               estate success.
@@ -117,11 +117,11 @@ export default function SolutionSection() {
         </div>
 
         {/* Second Row Cards */}
-        <div class=" flex flex-col lg:flex-row items-center mt-10 gap-[30px] lg:w-[746px] h-[300px]">
-          <div class="flex flex-col items-start p-6 gap-[16px] w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+        <div className=" flex flex-col lg:flex-row items-center mt-10 gap-[30px] lg:w-[746px] h-[300px]">
+          <div className="flex flex-col items-start p-6 gap-[16px] w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             {/* Icon */}
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
                 <svg
                   width="24"
                   height="24"
@@ -138,21 +138,21 @@ export default function SolutionSection() {
               </div>
             </div>
 
-            <div class="lg:w-[329px] h-[36px] font-inter font-medium text-[24px] leading-[120%] text-black flex-none order-1 flex-grow-0">
+            <div className="lg:w-[329px] h-[36px] font-inter font-medium text-[24px] leading-[120%] text-black flex-none order-1 flex-grow-0">
               Business Management Technology Tools Support
             </div>
 
-            <div class="w-[310px] mt-5 h-[120px] font-inter font-medium text-[16px] leading-[150%] text-[rgba(0,0,0,0.4)] flex-none order-2 align-self-stretch flex-grow-0">
+            <div className="w-[310px] mt-5 h-[120px] font-inter font-medium text-[16px] leading-[150%] text-[rgba(0,0,0,0.4)] flex-none order-2 align-self-stretch flex-grow-0">
               Reparv's business management technology tools provide smart,
               efficient, and data-driven solutions to streamline operations and
               drive real estate success.
             </div>
           </div>
 
-          <div class="flex flex-col items-start p-6 gap-[16px] w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-6 gap-[16px] w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             {/* Icon 2 */}
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
                 <svg
                   width="24"
                   height="24"
@@ -169,11 +169,11 @@ export default function SolutionSection() {
               </div>
             </div>
 
-            <div class="lg:w-[308px] h-[36px] font-inter font-medium text-[24px] leading-[130%] text-black flex-none order-1 flex-grow-0">
+            <div className="lg:w-[308px] h-[36px] font-inter font-medium text-[24px] leading-[130%] text-black flex-none order-1 flex-grow-0">
               Business Growth Training Support
             </div>
 
-            <div class="w-[310px] mt-5 h-[144px] font-inter font-medium text-[16px] leading-[150%] text-[rgba(0,0,0,0.4)] flex-none order-2 align-self-stretch flex-grow-0">
+            <div className="w-[310px] mt-5 h-[144px] font-inter font-medium text-[16px] leading-[150%] text-[rgba(0,0,0,0.4)] flex-none order-2 align-self-stretch flex-grow-0">
               Reparv's Business Growth Training Support equips partners with
               expert knowledge, strategic insights, and skill development to
               scale success in the real estate market.
@@ -185,65 +185,65 @@ export default function SolutionSection() {
       {/* Become Project Partner Section  */}
       <div
         id=""
-        class=" projectpartner lg:mt-10 mt-80 lg:mt-0 w-full   lg:p-10  md:h-[900px] w-full md:w-full h-[900px] lg:h-[370px]  bg-[#076300]   flex flex-col lg:items-start "
+        className=" projectpartner lg:mt-10 mt-80 lg:mt-0 w-full   lg:p-10  md:h-[900px] w-full md:w-full h-[900px] lg:h-[370px]  bg-[#076300]   flex flex-col lg:items-start "
       >
         {/* title */}
-        <h1 class="w-full lg:w-full  p-5 mx-auto lg:p-0 h-[48px] text-center text-white font-semibold text-[28px] lg:text-[40px] leading-[48px]">
+        <h1 className="w-full lg:w-full  p-5 mx-auto lg:p-0 h-[48px] text-center text-white font-semibold text-[28px] lg:text-[40px] leading-[48px]">
           Who Will Become An Project Partner?
         </h1>
 
         {/* Project Partner Cards */}
-        <div class=" greencard relative flex  w-full mt-20 lg:px-12  lg:mt-5 flex-col md:flex-col md:w-full lg:flex-row items-center  gap-[30px] lg:w-full   h-[268px]">
+        <div className=" greencard relative flex  w-full mt-20 lg:px-12  lg:mt-5 flex-col md:flex-col md:w-full lg:flex-row items-center  gap-[30px] lg:w-full   h-[268px]">
           {/* card 1 */}
-          <div class="flex  flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
-            <div class="relative w-[38px] h-[38px]">
-              <div class="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
-              <div class="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
+          <div className="flex  flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+            <div className="relative w-[38px] h-[38px]">
+              <div className="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
+              <div className="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
                 1
               </div>
             </div>
 
-            <div class="w-full h-[30px] text-[20px] font-semibold text-white leading-[150%]">
+            <div className="w-full h-[30px] text-[20px] font-semibold text-white leading-[150%]">
               Real Estate Professionals
             </div>
 
-            <div class="w-full h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
+            <div className="w-full h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
               Experienced agents and brokers looking to expand their reach and
               leverage advanced technology tools.
             </div>
           </div>
           {/* card 2 */}
-          <div class="flex flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
-            <div class="relative w-[38px] h-[38px]">
-              <div class="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
-              <div class="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
+          <div className="flex flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+            <div className="relative w-[38px] h-[38px]">
+              <div className="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
+              <div className="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
                 2
               </div>
             </div>
 
-            <div class="w-full lg:w-[344px] h-[30px] text-[20px] font-semibold text-white leading-[150%]">
+            <div className="w-full lg:w-[344px] h-[30px] text-[20px] font-semibold text-white leading-[150%]">
               Property Developers
             </div>
 
-            <div class="w-full lg:w-[286px] h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
+            <div className="w-full lg:w-[286px] h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
               Builders and developers seeking reliable marketing and sales
               support to enhance project visibility.
             </div>
           </div>
           {/* card 3 */}
-          <div class="flex flex-col items-start py-6 px-2  md:p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
-            <div class="relative  w-[38px] h-[38px]">
-              <div class="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
-              <div class="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
+          <div className="flex flex-col items-start py-6 px-2  md:p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+            <div className="relative  w-[38px] h-[38px]">
+              <div className="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
+              <div className="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
                 3
               </div>
             </div>
 
-            <div class="w-[344px] h-[30px] lg:h-[30px] md:h-[30px] text-[20px] font-semibold text-white leading-[150%]">
+            <div className="w-[344px] h-[30px] lg:h-[30px] md:h-[30px] text-[20px] font-semibold text-white leading-[150%]">
               Investment Consultants
             </div>
 
-            <div class="w-[286px] h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
+            <div className="w-[286px] h-[72px] text-[16px] font-medium text-[#FFFFFF99] leading-[150%]">
               Financial advisors specializing in real estate who want to offer
               transparent, high-quality investment opportunities.
             </div>

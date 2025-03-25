@@ -2,28 +2,28 @@ import { MarketRealityCardData } from "@/utils";
 
 export default function MarketReality() {
   return (
-    <div class="absolute flex flex-col justify-between items-center p-0 gap-8  w-full  h-[518px]  top-[1100px] lg:top-[1358px]">
+    <div className="absolute flex flex-col justify-between items-center p-0 gap-8  w-full  h-[518px]  top-[1100px] lg:top-[1358px]">
       {/* Market Reality Heading  */}
-      <div class="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
-        <div class="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
+      <div className="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
+        <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
           Market Reality
         </div>
 
-        <div class="p-2 lg:w-[534px] h-[78px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
+        <div className="p-2 lg:w-[534px] h-[78px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
           The current real estate market faces significant challenges that
           impact investors and businesses.
         </div>
 
         {/* green line */}
-        <div class="w-[100px] h-0 border-[2px]  border-[#0BB501]"></div>
+        <div className="w-[100px] h-0 border-[2px]  border-[#0BB501]"></div>
       </div>
       <div className="flex relative flex-col mx-auto w-full items-center">
         {/* Cards */}
-        <div class="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div class="flex flex-col items-start p-4 gap-4 lg:w-[358px] h-[280px]  bg-white bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 lg:w-[358px] h-[280px]  bg-white bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="20"
                   height="12"
@@ -40,11 +40,11 @@ export default function MarketReality() {
               </div>
             </div>
 
-            <div class="w-[233px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[233px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Unorganized Market
             </div>
 
-            <div class="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Unorganized real estate market is plagued by inconsistent pricing,
               lack of regulatory enforcement, fraudulent dealings, and complex
               legal procedures, making property transactions risky and
@@ -52,9 +52,9 @@ export default function MarketReality() {
             </div>
           </div>
           {/* Card 2 */}
-          <div class="flex flex-col items-start p-4 gap-4 lg:w-[358px] h-[280px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 lg:w-[358px] h-[280px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="23"
                   height="23"
@@ -71,11 +71,11 @@ export default function MarketReality() {
               </div>
             </div>
 
-            <div class="w-[233px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[233px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Lack of Transparency
             </div>
 
-            <div class="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               A lack of transparency in the real estate business leads to hidden
               costs, unclear property titles, misleading information, and
               fraudulent dealings, making it difficult for buyers and investors
@@ -83,9 +83,9 @@ export default function MarketReality() {
             </div>
           </div>
           {/* Card 3 */}
-          <div class="flex flex-col items-start p-4 gap-4 lg:w-[358px] h-[280px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 lg:w-[358px] h-[280px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="20"
                   height="12"
@@ -102,11 +102,11 @@ export default function MarketReality() {
               </div>
             </div>
 
-            <div class="lg:w-[283px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="lg:w-[283px] h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Scalability Challenges
             </div>
 
-            <div class="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Scalability challenges in the real estate business arise due to
               high capital requirements, market fluctuations, and the difficulty
               of standardizing operations across different locations..
@@ -115,11 +115,11 @@ export default function MarketReality() {
         </div>
 
         {/* Second Row Cards with */}
-        <div class=" flex flex-col p-2 lg:ml-0 lg:flex-row items-center mt-10 gap-[30px] lg:w-[746px] h-[300px]">
-          <div class="flex flex-col items-start p-4 gap-[16px] lg:w-[358px] h-[280px] bg-white border border-[rgba(0,0,0,0.1)] shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+        <div className=" flex flex-col p-2 lg:ml-0 lg:flex-row items-center mt-10 gap-[30px] lg:w-[746px] h-[300px]">
+          <div className="flex flex-col items-start p-4 gap-[16px] lg:w-[358px] h-[280px] bg-white border border-[rgba(0,0,0,0.1)] shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             {/* Icon */}
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="22"
                   height="22"
@@ -136,21 +136,21 @@ export default function MarketReality() {
               </div>
             </div>
 
-            <div class="w-[229px] h-[36px] font-inter font-medium text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
+            <div className="w-[229px] h-[36px] font-inter font-medium text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
               No Customer Reach
             </div>
 
-            <div class="w-[310px] h-[120px] font-inter font-medium text-[16px] leading-[150%] text-[rgba(0,0,0,0.4)] flex-none order-2 align-self-stretch flex-grow-0">
+            <div className="w-[310px] h-[120px] font-inter font-medium text-[16px] leading-[150%] text-[rgba(0,0,0,0.4)] flex-none order-2 align-self-stretch flex-grow-0">
               Many real estate businesses struggle to reach potential buyers due
               to ineffective marketing, weak digital presence, and a lack of
               strong networks, resulting in low sales and missed opportunities.
             </div>
           </div>
 
-          <div class="flex flex-col items-start p-4 gap-[16px] lg:w-[358px] h-[280px] bg-white border border-[rgba(0,0,0,0.1)] shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-4 gap-[16px] lg:w-[358px] h-[280px] bg-white border border-[rgba(0,0,0,0.1)] shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             {/* Icon 2 */}
-            <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div class="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="22"
                   height="22"
@@ -174,11 +174,11 @@ export default function MarketReality() {
               </div>
             </div>
 
-            <div class="w-[308px] h-[36px] font-inter font-medium text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
+            <div className="w-[308px] h-[36px] font-inter font-medium text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
               No Skilled Sales Workforce
             </div>
 
-            <div class="w-[310px] h-[144px] font-inter font-medium text-[16px] leading-[150%] text-[rgba(0,0,0,0.4)] flex-none order-2 align-self-stretch flex-grow-0">
+            <div className="w-[310px] h-[144px] font-inter font-medium text-[16px] leading-[150%] text-[rgba(0,0,0,0.4)] flex-none order-2 align-self-stretch flex-grow-0">
               The real estate industry often faces a shortage of a skilled sales
               workforce, leading to poor client handling, ineffective deal
               closures, and lost opportunities, ultimately affecting revenue and

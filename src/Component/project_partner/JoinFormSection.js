@@ -80,20 +80,23 @@ export default function JoinFormSection() {
   };
   return (
     <>
-      <div class=" absolute flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3603px] top-[5700px]">
+      <div
+        id="join"
+        className=" absolute flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3603px] top-[5700px]"
+      >
         {/* Form title */}
-        <div class="flex relative lg:left-[1%] md:left-[5%]  flex-col lg:justify-center items-center p-0 gap-4 lg:w-[307px] h-[152px]">
-          <div class=" w-full md:w-[350px] lg:w-[650px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
+        <div className="flex relative lg:left-[1%] md:left-[5%]  flex-col lg:justify-center items-center p-0 gap-4 lg:w-[307px] h-[152px]">
+          <div className=" w-full md:w-[350px] lg:w-[650px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
             Become A Project Partner
           </div>
 
-          <div class="w-full p-2 lg:p-0 md:w-[358px]  lg:w-[427px] h-[62px] text-center   text-[#999999] lg:text-black text-[16px] leading-[19px] lg:leading-[160%]  ">
+          <div className="w-full p-2 lg:p-0 md:w-[358px]  lg:w-[427px] h-[62px] text-center   text-[#999999] lg:text-black text-[16px] leading-[19px] lg:leading-[160%]  ">
             Fill out the form below to register your interest and take the first
             step towards a profitable partnership.
           </div>
 
           {/* green line */}
-          <div class="hidden lg:flex w-[100px] h-0 border-2  border-[#0BB501]"></div>
+          <div className="hidden lg:flex w-[100px] h-0 border-2  border-[#0BB501]"></div>
         </div>
 
         <div className="  box-border  md:ml-0  lg:ml-10 lg:ml-0 lg:left-[1%] flex flex-col items-center w-full   p-5 lg:p-[32px] lg:px-[36px] lg:gap-[24px] lg:w-[703px] h-[980px] lg:h-[707px] bg-white border border-[#0000001a] rounded-[10px]">
@@ -105,86 +108,86 @@ export default function JoinFormSection() {
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col w-full gap-0 lg:gap-6">
               {/* Full name & contact input Fields */}
-              <div class="flex flex-col lg:flex-row items-start p-5 lg:p-0 gap-[30px] lg:w-[631px] lg:h-[84px]">
+              <div className="flex flex-col lg:flex-row items-start p-5 lg:p-0 gap-[30px] lg:w-[631px] lg:h-[84px]">
                 {/* full name input  */}
-                <div class="flex flex-col items-start gap-[14px] w-full lg:w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
-                  <div class="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                <div className="flex flex-col items-start gap-[14px] w-full lg:w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
+                  <div className="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
                     Full Name*
                   </div>
 
-                  <div class="flex flex-row items-center p-[0px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
+                  <div className="flex flex-row items-center p-[0px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
                     <input
                       type="text"
                       name="FullName"
                       onChange={handleInputChange}
-                      class="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-black"
+                      className="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-black"
                       placeholder="Enter Full Name"
                     />
                   </div>
                 </div>
                 {/* Conatact Number input  */}
-                <div class="flex flex-col items-start gap-[14px] w-full lg:w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
-                  <div class="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                <div className="flex flex-col items-start gap-[14px] w-full lg:w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
+                  <div className="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
                     Contact Number*
                   </div>
                   {/* contact number input  */}
-                  <div class="flex  flex-col items-center p-[1px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
+                  <div className="flex  flex-col items-center p-[1px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
                     <input
                       type="number"
                       name="ContactNumber"
                       onChange={handleInputChange}
-                      class="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-black"
+                      className="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-black"
                       placeholder="Enter Mobile No."
                     />
                   </div>
                 </div>
               </div>
               {/* email & city input Fields */}
-              <div class="flex flex-col lg:flex-row items-start p-5 lg:p-0 gap-[30px] lg:w-[631px] lg:h-[84px]">
+              <div className="flex flex-col lg:flex-row items-start p-5 lg:p-0 gap-[30px] lg:w-[631px] lg:h-[84px]">
                 {/*email input  */}
-                <div class="flex flex-col items-start gap-[14px] w-full lg:w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
-                  <div class="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                <div className="flex flex-col items-start gap-[14px] w-full lg:w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
+                  <div className="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
                     Email Address*
                   </div>
 
-                  <div class="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
+                  <div className="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
                     <input
                       type="text"
                       onChange={handleInputChange}
                       name="Email"
-                      class="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-black"
+                      className="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-black"
                       placeholder="Enter Your Email"
                     />
                   </div>
                 </div>
                 {/*  City input  */}
-                <div class="flex flex-col items-start gap-[14px] w-full lg:w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
-                  <div class="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
+                <div className="flex flex-col items-start gap-[14px] w-full lg:w-[300.5px] h-[84px] flex-none order-0 flex-grow-1">
+                  <div className="w-full lg:w-[300.5px] h-[18px] text-black text-[12px] font-medium leading-[150%]">
                     City*
                   </div>
                   {/* city name input  */}
-                  <div class="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
+                  <div className="flex flex-row items-center p-[1px] px-[2px] gap-[12px] w-full lg:w-[300.5px] h-[52px] border border-[#00000033]  rounded-[6px]">
                     <input
                       type="text"
                       name="City"
                       onChange={handleInputChange}
-                      class="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-black"
+                      className="w-full lg:w-[300.5px] h-[20px] p-6 text-[14px] font-medium leading-[20px] text-black"
                       placeholder="Enter City Name"
                     />
                   </div>
                 </div>
               </div>
               {/* Years of Experience selected field */}
-              <div class="flex flex-col  items-start p-5 lg:p-0 gap-[10px] lg:w-[631px] lg:h-[84px]">
+              <div className="flex flex-col  items-start p-5 lg:p-0 gap-[10px] lg:w-[631px] lg:h-[84px]">
                 <div className="lg:w-full lg:w-[300.5px] lg:px-5 lg:px-0 h-[18px] text-black text-[12px] font-medium leading-[150%]">
                   How Many Years of Experience? *
                 </div>
-                <div class=" flex flex-row  items-center  gap-[12px] w-full  h-[54px]  rounded-[6px] ">
+                <div className=" flex flex-row  items-center  gap-[12px] w-full  h-[54px]  rounded-[6px] ">
                   <select
                     name="Experience"
                     onChange={handleInputChange}
                     id="dropdown"
-                    class="mt-1 p-4 block  w-full lg:py-3 border border-gray-300 rounded-md shadow-sm  text-sm"
+                    className="mt-1 p-4 block  w-full lg:py-3 border border-gray-300 rounded-md shadow-sm  text-sm"
                   >
                     <option value="">Select experience</option>
                     <option value="1year">Less then 1 Year</option>
@@ -196,16 +199,16 @@ export default function JoinFormSection() {
                 </div>
               </div>
               {/* Message Fields */}
-              <div class="flex flex-col items-start gap-[14px] lg:w-[631px] h-[156px] flex-none order-3 self-stretch flex-grow-0">
-                <div class="lg:w-[631px] p-4 lg:p-0 h-[18px] text-black text-[12px] font-medium leading-[150%]">
+              <div className="flex flex-col items-start gap-[14px] lg:w-[631px] h-[156px] flex-none order-3 self-stretch flex-grow-0">
+                <div className="lg:w-[631px] p-4 lg:p-0 h-[18px] text-black text-[12px] font-medium leading-[150%]">
                   Message
                 </div>
-                <div class="flex flex-row items-start mx-auto   gap-[12px] w-[300px]  lg:w-[631px] h-[122px] border border-[#00000033] rounded-[6px] flex-none order-1 self-stretch flex-grow-0">
+                <div className="flex flex-row items-start mx-auto   gap-[12px] w-[300px]  lg:w-[631px] h-[122px] border border-[#00000033] rounded-[6px] flex-none order-1 self-stretch flex-grow-0">
                   <input
                     type="text"
                     name="Message"
                     onChange={handleInputChange}
-                    class="w-[350px] px-[5px] h-[120px] lg:w-[631px] hover:border hover:border-[#00000033] h-[90px] text-[14px] font-medium leading-[20px] text-[#666666]"
+                    className="w-[350px] px-[5px] h-[120px] lg:w-[631px] hover:border hover:border-[#00000033] h-[90px] text-[14px] font-medium leading-[20px] text-[#666666]"
                     placeholder="Enter Your Message here..."
                   />
                 </div>

@@ -3,8 +3,15 @@ import JoinFormSection from "@/Component/project_partner/JoinFormSection";
 import MarketReality from "@/Component/project_partner/MarketRealitySection";
 import ProjectPartner from "@/Component/project_partner/ProjectPartner";
 import SolutionSection from "@/Component/project_partner/SolutionSection";
-import Image from "next/image";
 
-export default function Home() {
-  return <div className="w-full m-0 p-0 "></div>;
+export default function ProjectPartnerPage() {
+  return (
+    <div className="w-full m-0 p-0 ">
+      <HeroSection />
+      <ProjectPartner />
+      <MarketReality />
+      <SolutionSection />
+      <JoinFormSection />
+    </div>
+  );
 }

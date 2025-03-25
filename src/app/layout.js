@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Headers from "@/Component/layout/header";
 import Footer from "@/Component/layout/footer";
+import { CommonLayout } from "@/Component/common_layout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,9 +24,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
       <body className="w-full">
-        <Headers />
+        {/* <Headers />
         {children}
-        <Footer />
+        <Footer /> */}
+        <CommonLayout children={children}>{children}</CommonLayout>
       </body>
     </html>
   );

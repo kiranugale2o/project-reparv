@@ -129,3 +129,9 @@
     left: 20%;
   }
 }
+
+@media (min-width: 400px) and (max-width: 780px) {
+  #video {
+    width: 60%;
+  }
+}
