@@ -1,13 +1,13 @@
 import LogoSvg from "@/images/logo";
 export default function Footer() {
   return (
-    <div class=" flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full  h-[406px] left-0 top-[6850px] lg:top-[4681px] bg-black">
+    <div class=" flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full h-[420px] lg:h-[506px] left-0 top-[6800px] lg:top-[4681px] bg-black">
       {/* logo */}
       <div class="flex flex-row items-start p-5 md:w-[180px] h-[90px] lg:p-0 lg:w-[137.58px] lg:h-[58px] flex-none order-0 flex-grow-0">
         <img src="/footerlogo.png" alt="logo" className="w-full h-full" />
       </div>
       {/* footer menu */}
-      <div class="flex flex-col lg:flex-row justify-between items-start p-0 gap-[98px] w-full lg:h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
+      <div class="flex flex-col lg:flex-row justify-between items-start p-0 gap-[8px] w-full h-[180px] lg:h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
         {/* menu 1 */}
         <div className="flex flex-col gap-5 mt-10 lg:mt-0">
           <div class="absolute  md:top-[20px] md:left-[70%] top-[50px] justify-between left-[230px] lg:static flex flex-col items-start p-0 gap-[30px] mx-auto w-[96px] h-[166px] flex-none order-0 flex-grow-0">
@@ -135,14 +135,14 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div class="w-full flex flex-col   lg:flex-row items-start mt-5 lg:mt-0 p-4 lg:gap-[38px]  lg:w-[1136px] h-[44px] flex-none order-2 align-self-stretch flex-grow-0">
-        <p class="w-full lg:w-[323px] h-[24px] font-inter font-medium text-[11px] lg:text-[18px] lg:leading-[24px] tracking-[-0.006em] text-white/60 flex-none order-0 flex-grow-0">
+      <div class="w-full flex flex-col   lg:flex-row items-start lg:mt-5 lg:mt-0 p-4 lg:gap-[38px]  lg:w-[1136px] h-[44px] flex-none order-2 align-self-stretch flex-grow-0">
+        <p class="w-full lg:w-[323px] h-[24px] font-inter font-medium text-[12px] lg:text-[18px] lg:leading-[24px] tracking-[-0.006em] text-white/60 flex-none order-0 flex-grow-0">
           @2024 reparv.com All Right Reserved
         </p>
-        <p class="hidden lg:flex w-full lg:w-[323px] h-[24px] font-inter font-medium text-[11px] lg:text-[18px] lg:leading-[24px] tracking-[-0.006em] text-white/60 flex-none order-0 flex-grow-0">
+        <p class="hidden lg:flex w-full lg:w-[323px] h-[24px] font-inter font-medium text-[12px] lg:text-[18px] lg:leading-[24px] tracking-[-0.006em] text-white/60 flex-none order-0 flex-grow-0">
           Terms & Conditions
         </p>
-        <p class="hidden lg:flex w-full lg:w-[323px] h-[24px] font-inter font-medium text-[11px] lg:text-[18px] lg:leading-[24px] tracking-[-0.006em] text-white/60 flex-none order-0 flex-grow-0">
+        <p class="hidden lg:flex w-full lg:w-[323px] h-[24px] font-inter font-medium text-[12px] lg:text-[18px] lg:leading-[24px] tracking-[-0.006em] text-white/60 flex-none order-0 flex-grow-0">
           Privacy Policy
         </p>
       </div>

@@ -21,7 +21,10 @@ export default function SolutionSection() {
         {/* Cards */}
         <div class="flex flex-col lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div class="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white  border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+          <div
+            class="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px] 
+  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white  border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]"
+          >
             <div class="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
               <div class="absolute w-[20px] h-[20px] p-4 rounded-full    bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
                 <svg
