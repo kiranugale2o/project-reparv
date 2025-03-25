@@ -1,7 +1,7 @@
 import LogoSvg from "@/images/logo";
 export default function Footer() {
   return (
-    <div class=" flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full h-[486px] left-0 top-[6750px] lg:top-[4681px] bg-black">
+    <div class=" flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full h-[300px] lg:h-[486px] left-0 top-[6750px] lg:top-[4681px] bg-black">
       {/* logo */}
       <div class="flex flex-row items-start p-5 md:w-[180px] h-[90px] lg:p-0 lg:w-[137.58px] lg:h-[58px] flex-none order-0 flex-grow-0">
         <img src="/footerlogo.png" alt="logo" className="w-full h-full" />
