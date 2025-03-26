@@ -1,22 +1,25 @@
 export default function TerritoryPartnerSection() {
   return (
-    <div className="w-full ">
-      <div className="absolute w-full  h-[536px] top-[680px] flex flex-col items-start gap-[20px] lg:gap-[24px] p-0">
-        <p className=" w-full mx-auto lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#026FBE] text-[28px] lg:text-[40px] leading-[48px]">
+    <div className="w-full  ">
+      <div className="absolute   md:top-[850px] w-full h-[700px] lg:h-[636px] top-[650px] lg:top-[660px] flex flex-col items-start gap-[20px] lg:gap-[24px] p-0">
+        <p className=" w-full mx-auto lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#004170] text-[28px] lg:text-[40px] leading-[48px]">
           Who is a Project Partner?
         </p>
 
         {/* green line */}
-        <div className="w-[100px]  mx-auto h-0 border-2  border-[#026FBE]"></div>
+        <div className="w-[100px] mx-auto  h-0 border-2  border-[#026FBE]"></div>
 
-        <div className="w-full  lg:justify-center lg:gap-[24px] lg:mt-10 item-center flex flex-col lg:flex-row">
+        <div className="w-full mx-auto lg:gap-[0px] lg:mt-10 item-center flex flex-col lg:flex-row">
           {/* Text content */}
-          <div class="flex flex-col  justify-center items-start p-0 gap-[10px] lg:w-[533px] h-[270px]">
-            <h2 class=" w-full lg:w-[387px] h-[36px] text-center text-black font-semibold text-[22px] lg:text-[24px] leading-[36px]">
-              A Role of Responsibility & Growth
-            </h2>
 
-            <div class=" w-full lg:w-[503px] ml-1 h-[210px] font-inter font-medium text-[16px] lg:text-[20px] leading-[150%] text-[#00000099] flex-none order-1 self-stretch flex-grow-0">
+          <div className="flex md:mx-auto flex-col  md:justify-center lg:justify-center items-start gap-6 md:h-[200px] lg:w-[463px] h-[300px] lg:h-[270px]">
+            {/* Heading */}
+            <div className="w-full lg:w-[387px] h-[36px] font-semibold text-2xl text-center text-black">
+              A Role of Responsibility & Growth
+            </div>
+
+            {/* Paragraph */}
+            <div className="p-3 w-full md:mx-auto lg:w-[533px] h-[210px] font-medium text-[16px] lg:text-[20px] text-gray-600">
               A Territory Partner at Reparv is a responsible leader assigned to
               manage and grow real estate sales in a specific region. They
               oversee the sales team provided by Reparv, ensure effective
@@ -26,12 +29,13 @@ export default function TerritoryPartnerSection() {
           </div>
 
           {/* Boxes */}
-          <div class=" flex flex-col lg:mt-30 ml-2 w-full  justify-center  items-center p-0 gap-[24px] lg:w-[573px] h-[232px] flex-none order-1 flex-grow-0">
+
+          <div class="flex flex-col  min-h-screen w-full p-0 lg:gap-[24px] lg:w-[633px] ">
             {/* Row 1 */}
-            <div class="flex flex-row  lg:p-0  items-center p-0 gap-[24px] lg:w-[573px]   lg:h-[204px] flex-none order-0 self-stretch flex-grow-0">
-              {/* box1 */}
-              <div className="w-[170px] lg:w-[261px] h-[133.85px] lg:h-[204px] bg-[#F0F7FF] rounded-lg border flex flex-col">
-                <div class="w-[40px] mt-3 p-2 rounded-full ml-3 lg:ml-6 bg-[#E0EEFE] h-[40px] flex-none order-0 flex-grow-0">
+            <div class="flex flex-row items-center justify-center gap-[24px] lg:w-[573px] lg:h-[204px] ">
+              {/* box 2 */}
+              <div className="w-[170px] md:w-[350px] lg:w-[261px] h-[133.85px] lg:h-[204px] bg-[#F0F7FF] rounded-lg border flex flex-col">
+                <div class="w-[40px] mt-3 p-2 md:ml-15 rounded-full ml-3 lg:ml-0 lg:ml-6 bg-[#E0EEFE] h-[40px] flex-none order-0 flex-grow-0">
                   <svg
                     width="24"
                     height="24"
@@ -46,17 +50,17 @@ export default function TerritoryPartnerSection() {
                   </svg>
                 </div>
                 <div className="mx-auto block">
-                  <div class=" ml-3 lg:ml-0 lg:mt-3 h-[36px] font-inter font-medium text-[16px] lg:text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
+                  <div class=" ml-3 lg:ml-0 lg:ml-0 lg:mt-3 h-[36px] font-inter font-medium text-[16px] lg:text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
                     Regional Leadership
                   </div>
-                  <div class="lg:w-[220px] ml-3 lg:mt-2 mx-auto h-[48px] font-inter font-medium text-[12px] lg:text-[16px] leading-[150%] text-[#666666] flex-none order-2 self-stretch flex-grow-0">
+                  <div class="lg:w-[220px] ml-3 lg:ml-0 lg:mt-2 mx-auto h-[48px] font-inter font-medium text-[12px] lg:text-[16px] leading-[150%] text-[#666666] flex-none order-2 self-stretch flex-grow-0">
                     Lead operations in your assigned territory
                   </div>
                 </div>
               </div>
               {/* box2 */}
-              <div className="w-[170px] lg:w-[261px] h-[133.85px] lg:h-[204px] bg-[#FBF8F1] rounded-lg border flex flex-col">
-                <div class="w-[40px] mt-3 p-2 rounded-full ml-3 lg:ml-6 bg-[#E0EEFE] h-[40px] flex-none order-0 flex-grow-0">
+              <div className="w-[170px] md:w-[350px] lg:w-[261px] h-[133.85px] lg:h-[204px] bg-[#FBF8F1] rounded-lg border flex flex-col">
+                <div class="w-[40px] mt-3 p-2 md:ml-15 rounded-full ml-3 lg:ml-0 lg:ml-6 bg-[#E0EEFE] h-[40px] flex-none order-0 flex-grow-0">
                   <svg
                     width="24"
                     height="24"
@@ -71,10 +75,10 @@ export default function TerritoryPartnerSection() {
                   </svg>
                 </div>
                 <div className="mx-auto block">
-                  <div class=" ml-3 lg:ml-0 lg:mt-3 h-[36px] font-inter font-medium text-[16px] lg:text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
+                  <div class=" ml-3 lg:ml-0 lg:ml-0 lg:mt-3 h-[36px] font-inter font-medium text-[16px] lg:text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
                     Team Management
                   </div>
-                  <div class="lg:w-[220px] ml-3 lg:mt-2 mx-auto h-[48px] font-inter font-medium text-[12px] lg:text-[16px] leading-[150%] text-[#666666] flex-none order-2 self-stretch flex-grow-0">
+                  <div class="lg:w-[220px] ml-3 lg:ml-0 lg:mt-2 mx-auto h-[48px] font-inter font-medium text-[12px] lg:text-[16px] leading-[150%] text-[#666666] flex-none order-2 self-stretch flex-grow-0">
                     Guide the sales team provided by Reparv
                   </div>
                 </div>
@@ -82,10 +86,10 @@ export default function TerritoryPartnerSection() {
             </div>
 
             {/* Row 2 */}
-            <div class=" flex  flex-row items-center p-0 gap-[24px] lg:w-[573px] h-[133.85px] lg:h-[204px] flex-none order-0 self-stretch flex-grow-0">
+            <div class="flex flex-row items-center justify-center gap-[24px] lg:w-[573px] h-[204px] ">
               {/* box1 */}
-              <div className="w-[170px] lg:w-[261px] h-[133.85px] lg:h-[204px] bg-[#F0F7FF] rounded-lg border flex flex-col">
-                <div class="w-[40px] mt-3 p-2 rounded-full ml-3 lg:ml-6 bg-[#E0EEFE] h-[40px] flex-none order-0 flex-grow-0">
+              <div className="w-[170px] md:w-[350px] lg:w-[261px] h-[133.85px] lg:h-[204px] bg-[#F0F7FF] rounded-lg border flex flex-col">
+                <div class="w-[40px] mt-3 p-2 md:ml-15 rounded-full ml-3 lg:ml-0 lg:ml-6 bg-[#E0EEFE] h-[40px] flex-none order-0 flex-grow-0">
                   <svg
                     width="24"
                     height="24"
@@ -100,17 +104,17 @@ export default function TerritoryPartnerSection() {
                   </svg>
                 </div>
                 <div className="mx-auto block">
-                  <div class="mx-auto ml-3 lg:ml-0 lg:mt-3 h-[36px] font-inter font-medium text-[16px] lg:text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
+                  <div class="mx-auto ml-3 lg:ml-0 lg:ml-0 lg:mt-3 h-[36px] font-inter font-medium text-[16px] lg:text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
                     Strategy Execution
                   </div>
-                  <div class="lg:w-[220px] ml-3 lg:mt-2 mx-auto h-[48px] font-inter font-medium text-[12px] lg:text-[16px] leading-[150%] text-[#666666] flex-none order-2 self-stretch flex-grow-0">
+                  <div class="lg:w-[220px] ml-3 lg:ml-0 lg:mt-2 mx-auto h-[48px] font-inter font-medium text-[12px] lg:text-[16px] leading-[150%] text-[#666666] flex-none order-2 self-stretch flex-grow-0">
                     Implement effective marketing strategies
                   </div>
                 </div>
               </div>
               {/* box2 */}
-              <div className="w-[170px] lg:w-[261px] h-[133.85px] lg:h-[204px] bg-[#FBF8F1] rounded-lg border flex flex-col">
-                <div class="w-[40px] mt-3 p-2 rounded-full ml-3 lg:ml-6 bg-[#E0EEFE] h-[40px] flex-none order-0 flex-grow-0">
+              <div className="w-[170px] md:w-[350px] lg:w-[261px] h-[133.85px] lg:h-[204px] bg-[#FBF8F1] rounded-lg border flex flex-col">
+                <div class="w-[40px] mt-3 p-2 md:ml-15 rounded-full ml-3 lg:ml-0 lg:ml-6 bg-[#E0EEFE] h-[40px] flex-none order-0 flex-grow-0">
                   <svg
                     width="24"
                     height="24"
@@ -125,10 +129,10 @@ export default function TerritoryPartnerSection() {
                   </svg>
                 </div>
                 <div className="mx-auto block">
-                  <div class=" ml-3 lg:ml-0 lg:mt-3 h-[36px] font-inter font-medium text-[16px] lg:text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
+                  <div class=" ml-3 lg:ml-0 lg:ml-0 lg:mt-3 h-[36px] font-inter font-medium text-[16px] lg:text-[24px] leading-[150%] text-black flex-none order-1 flex-grow-0">
                     Business Growth
                   </div>
-                  <div class="lg:w-[220px] ml-3 lg:mt-2 mx-auto h-[48px] font-inter font-medium text-[12px] lg:text-[16px] leading-[150%] text-[#666666] flex-none order-2 self-stretch flex-grow-0">
+                  <div class="lg:w-[220px] ml-3 lg:ml-0 lg:mt-2 mx-auto h-[48px] font-inter font-medium text-[12px] lg:text-[16px] leading-[150%] text-[#666666] flex-none order-2 self-stretch flex-grow-0">
                     Drive expansion and increase market share
                   </div>
                 </div>

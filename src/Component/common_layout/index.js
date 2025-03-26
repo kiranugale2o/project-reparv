@@ -9,7 +9,9 @@ export const CommonLayout = ({ children }) => {
         {/* The children prop will render the page-specific content */}
         {children}
       </main>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

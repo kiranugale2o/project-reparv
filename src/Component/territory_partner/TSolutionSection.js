@@ -1,6 +1,6 @@
 export default function TerritorySolutionSection() {
   return (
-    <div className="absolute flex flex-col items-center gap-8 w-full top-[4000px] left-0 lg:top-[2358px] md:top-[4100px]">
+    <div className=" absolute flex flex-col items-center gap-8 w-full top-[4000px] left-0 lg:top-[2358px] md:top-[4100px]">
       {/*Solutions in Reparv Heading  */}
       <div className="flex relative  md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
         <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold  text-[#004170] text-[28px] lg:text-[40px] leading-[48px]">
@@ -14,11 +14,11 @@ export default function TerritorySolutionSection() {
         {/* green line */}
         <div className="w-[100px] h-0 border-[2px]  border-[#026FBE]"></div>
       </div>
-      <div className=" flex relative flex-col mx-auto w-full items-center">
+      <div className=" flex relative flex-col mx-auto w-full lg:items-center">
         {/*First Row  Cards */}
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -46,7 +46,7 @@ export default function TerritorySolutionSection() {
             </div>
           </div>
           {/* Card 2 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -73,7 +73,7 @@ export default function TerritorySolutionSection() {
             </div>
           </div>
           {/* Card 3 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -106,7 +106,7 @@ export default function TerritorySolutionSection() {
 
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6  bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6  bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -134,7 +134,7 @@ export default function TerritorySolutionSection() {
             </div>
           </div>
           {/* Card 2 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -161,7 +161,7 @@ export default function TerritorySolutionSection() {
             </div>
           </div>
           {/* Card 3 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-[#FBF8F1]  border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#FBF8F1]  border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -194,7 +194,7 @@ export default function TerritorySolutionSection() {
 
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -222,7 +222,7 @@ export default function TerritorySolutionSection() {
             </div>
           </div>
           {/* Card 2 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -249,7 +249,7 @@ export default function TerritorySolutionSection() {
             </div>
           </div>
           {/* Card 3 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg

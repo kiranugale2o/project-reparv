@@ -82,15 +82,15 @@ export default function TerritoryJoinFormSection() {
     <>
       <div
         id="territory_partner_join"
-        className=" absolute flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3503px] top-[6700px]"
+        className=" absolute flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3503px] top-[6750px]"
       >
         {/* Form title */}
         <div className="flex mx-auto  flex-col lg:justify-center items-center p-0 gap-4 lg:w-[307px] h-[152px]">
-          <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#004170] text-[28px] lg:text-[40px] leading-[48px]">
+          <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#004170] text-[28px] lg:text-[40px] leading-[40px] lg:leading-[48px]">
             Become A Territory Partner
           </div>
 
-          <div className=" lg:w-[534px] h-[40px] md:h-[30px] lg:h-[28px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
+          <div className="mt-10 lg:w-[534px] h-[40px] md:h-[30px] lg:h-[28px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
             Take the first step towards a successful partnership with Reparv
           </div>
 
@@ -188,7 +188,7 @@ export default function TerritoryJoinFormSection() {
             </div>
           </div>
 
-          <div className="flex  mx-auto  flex-col  lg:mx-0 items-start  mt-[10px] lg:mt-0 p-8 gap-6  lg:w-[703px] h-[1020px] lg:h-[707px] bg-white border-l border-t border-b border-[#e5e5e5] shadow-lg rounded-r-lg">
+          <div className="flex  mx-auto  flex-col  lg:mx-0 items-start  mt-[10px] lg:mt-0 p-4 lg:p-8 gap-6  lg:w-[703px] h-[1020px] lg:h-[707px] bg-white border-l border-t border-b border-[#e5e5e5] shadow-lg rounded-r-lg">
             <div className="font-inter md:mx-auto font-medium text-2xl text-[#026FBE]">
               Register Your Interest
             </div>

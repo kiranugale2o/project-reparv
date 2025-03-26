@@ -14,11 +14,11 @@ export default function TerritoryPartnerMarketSection() {
         {/* green line */}
         <div className="w-[100px] h-0 border-[2px]  border-[#026FBE]"></div>
       </div>
-      <div className=" flex relative flex-col mx-auto w-full items-center">
+      <div className=" flex relative flex-col  w-full lg:items-center">
         {/*First Cards */}
-        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+        <div className=" flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -46,7 +46,7 @@ export default function TerritoryPartnerMarketSection() {
             </div>
           </div>
           {/* Card 2 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -73,7 +73,7 @@ export default function TerritoryPartnerMarketSection() {
             </div>
           </div>
           {/* Card 3 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -106,7 +106,7 @@ export default function TerritoryPartnerMarketSection() {
 
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -134,7 +134,7 @@ export default function TerritoryPartnerMarketSection() {
             </div>
           </div>
           {/* Card 2 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -161,7 +161,7 @@ export default function TerritoryPartnerMarketSection() {
             </div>
           </div>
           {/* Card 3 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -192,7 +192,7 @@ export default function TerritoryPartnerMarketSection() {
 
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -220,7 +220,7 @@ export default function TerritoryPartnerMarketSection() {
             </div>
           </div>
           {/* Card 2 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
@@ -247,7 +247,7 @@ export default function TerritoryPartnerMarketSection() {
             </div>
           </div>
           {/* Card 3 */}
-          <div class="w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div class="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg

@@ -51,7 +51,7 @@ export default function Headers() {
               <div
                 className={` font-inter font-semibold text-[16px] leading-[36px] flex items-center capitalize  ${
                   currentPath == "/territorypartner"
-                    ? "text-[#026FBE]"
+                    ? "text-[#004170]"
                     : "text-[#0BB501] "
                 } flex-none  flex-grow-0`}
               >
@@ -101,7 +101,7 @@ export default function Headers() {
         <div
           className={` font-inter font-semibold text-[16px] leading-[36px] flex items-center capitalize ${
             currentPath == "/territorypartner"
-              ? "text-[#026FBE]"
+              ? "text-[#004170]"
               : "text-[#0BB501] "
           } flex-none  flex-grow-0`}
         >

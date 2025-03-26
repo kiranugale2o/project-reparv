@@ -1,15 +1,23 @@
+"use client";
 import LogoSvg from "@/images/logo";
+import { usePathname } from "next/navigation";
 export default function Footer() {
+  const currentPath = usePathname();
+
   return (
-    <div className=" flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full h-[420px] lg:h-[506px] left-0 top-[6800px] lg:top-[4681px] bg-black">
+    <div
+      className={` flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full h-[420px] lg:h-[506px] left-0 ${
+        currentPath == "/territorypartner" ? "top-[7960px]" : "top-[6800px]"
+      } lg:top-[4681px] bg-black`}
+    >
       {/* logo */}
       <div className="flex flex-row items-start p-5 md:w-[180px] h-[90px] lg:p-0 lg:w-[137.58px] lg:h-[58px] flex-none order-0 flex-grow-0">
         <img src="/footerlogo.png" alt="logo" className="w-full h-full" />
       </div>
       {/* footer menu */}
-      <div className="flex flex-col lg:flex-row justify-between  items-start p-0 gap-[8px] w-full h-[180px] lg:h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
+      <div className="flex flex-col lg:flex-row justify-between   items-start p-0 gap-[8px] w-full h-[180px] lg:h-[166px] flex-none order-1 align-self-stretch flex-grow-0">
         {/* menu 1 */}
-        <div className="flex flex-col gap-5mt-10 lg:mt-0">
+        <div className="flex lg:w-[150px] flex-col gap-5 mt-10 lg:mt-0">
           <div className="absolute md:top-[20px] md:mx-auto top-[50px]  justify-between left-[230px] lg:static flex flex-col  p-0 gap-[30px] mx-auto w-[96px] h-[166px] ">
             <div className="hidden lg:flex w-[93px] h-[24px] text-white font-inter font-bold text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0">
               Company
@@ -47,9 +55,9 @@ export default function Footer() {
         </div>
 
         {/* menu 2 */}
-        <div className="hidden lg:flex flex-col gap-5">
+        <div className="hidden lg:w-[530px] lg:flex flex-col gap-5">
           <div className="flex flex-col items-start p-0 gap-[30px] mx-auto w-[96px] h-[166px] flex-none order-0 flex-grow-0">
-            <div className="w-[163px] h-[24px] text-white font-inter font-bold text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0">
+            <div className="w-[183px] h-[24px] text-white font-inter font-bold text-[18px] leading-[24px] tracking-[-0.006em] flex-none order-0 flex-grow-0">
               Become a Professional!
             </div>
             <div className="flex flex-col items-start p-0 gap-[20px] w-[96px] h-[112px] flex-none order-1 flex-grow-0">
