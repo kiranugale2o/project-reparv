@@ -10,7 +10,7 @@ import TerritoryPartner from "./territorypartner/page";
 export default function Home() {
   return (
     <div className="w-full m-0 p-0 ">
-      <TerritoryPartner />
+      <ProjectPartnerPage />
     </div>
   );
 }
