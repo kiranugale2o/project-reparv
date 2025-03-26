@@ -1,21 +1,20 @@
-import "./style/herosection.css";
 export default function TerritoryHeroSection() {
   return (
-    <div className="w-full flex p-0 m-0 ">
-      <div class="absolute flex flex-col w-full h-[530px] md:h-[700px] left-0 lg:top-[70px]  bg-[url('/territorypartner_back.png')] bg-white/77 lg:bg-cover rounded-2px ">
-        <div className="hidden md:flex  absolute lg:flex flex-row justify-center items-center p-2 h-[35px] md:left-[52px] lg:left-[152px] md:top-[100px] lg:top-[84px] bg-[rgba(255,_255,_255,_0.6)] rounded-[30px]">
+    <div className="w-full flex p-0 m-0  ">
+      <div className="absolute flex flex-col w-full h-[480px] lg:h-[530px] md:h-[700px] left-0 lg:top-[70px]  bg-[url('/territorypartner_back.png')] bg-white/77 bg-cover rounded-[2px] backdrop-blur-[15px]  ">
+        <div className="hidden md:flex  absolute lg:flex flex-row justify-center items-center lg:p-2 h-[35px] md:left-[52px] lg:left-[152px] md:top-[100px] lg:top-[84px] bg-[rgba(255,_255,_255,_0.6)] rounded-[30px] ">
           <p className="w-full lg:w-[267px] h-[19px] px-1 font-inter font-semibold text-[16px] leading-[19px] text-[#026FBE] ">
             Territory Partner Program
           </p>
         </div>
 
         <div className="flex w-full ">
-          <div className="md:mt-7 absolute flex flex-col items-center lg:items-start p-5 lg:p-0  w-full gap-5 lg:w-[486px] lg:h-[164px] lg:left-[152px] lg:top-[114px] top-[91px]">
+          <div className="md:mt-7 absolute flex flex-col items-center lg:items-start  md:p-5 w-full gap-2 lg:gap-5 lg:w-[486px] lg:h-[164px] lg:left-[152px] lg:top-[114px] top-[91px]">
             {" "}
             <h1 className=" font-inter font-bold  text-[36px] lg:text-[50px] font-bold leading-[40px] lg:leading-[50px] text-[#000000] ">
               Territory Partner
             </h1>
-            <div class=" font-inter lg:font-sans  leading-[19px] text-center lg:text-start  flex-none order-0 self-stretch flex-grow-0 lg:flex w-full px-5 lg:p-0  lg:w-[486px] h-[58px]  font-semibold text-[16px] lg:text-[24px] lg:leading-[29px] text-[#026FBE]">
+            <div className=" font-inter lg:font-sans  leading-[19px] text-center lg:text-start  flex-none order-0 self-stretch flex-grow-0 lg:flex w-full px-3 lg:p-0  lg:w-[486px] h-[38px]  font-semibold text-[16px] lg:text-[24px] lg:leading-[29px] text-[#026FBE]">
               Sales Leadership Starts with You – Partner with Reparv!
             </div>
             <div className="hidden lg:flex lg:font-normal lg:text-[20px] lg:leading-[24px] text-[rgba(0,_0,_0,_0.6)] flex-none ">
@@ -24,7 +23,7 @@ export default function TerritoryHeroSection() {
               region. Together, we build trust, close deals, and grow the
               business!
             </div>
-            <div className="lg:hidden flex w-full px-1 lg:w-[358px] md:w-[700px] h-[54px] font-inter font-medium md:text-[18px] text-[15px] leading-[18px]   text-[rgba(0,_0,_0,_0.6)] flex-none ">
+            <div className="lg:hidden flex w-full text-center  lg:w-[358px] md:w-[700px] h-[54px] font-inter font-medium md:text-[18px] text-[15px] leading-[18px]   text-[rgba(0,_0,_0,_0.6)] flex-none ">
               Explore exciting opportunities in real estate sales with expert
               guidance. Unlock your potential and take the first step toward
               rewarding growth!
@@ -32,12 +31,12 @@ export default function TerritoryHeroSection() {
           </div>
 
           {/* Register Button of Territory  */}
-          <div className=" absolute w-[237px] flex flex-row justify-center items-center h-[48px] lg:h-[58px] left-[17%] md:left-[35%]   md:top-[740px] lg:left-[152px] top-[580px]  lg:top-[421px] bg-[#026FBE]    rounded-[8px]">
+          <div className="absolute hover:drop-shadow-xl  hover:bg-blue-400  focus:bg-blue-600 active:bg-blue-500  w-[237px] flex flex-row justify-center items-center h-[48px] lg:h-[58px] lg:h-[58px]  left-[50%]   md:top-[740px] lg:left-[170px] top-[550px]  lg:top-[421px] transform -translate-x-[50%] -translate-y-[50%]   lg:-translate-x-[0%] lg:-translate-y-[0%] bg-[#026FBE] rounded-[8px]">
             <a
-              href="/projectpartner/#join"
-              className="lg:w-[104px] item-start  font-inter font-semibold lg:w-[155px] flex  lg:h-[29px]  text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0"
+              href="#join"
+              className="w-[104px] item-start font-inter font-semibold lg:w-[155px] flex lg:h-[29px] text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0"
             >
-              Register Now{" "}
+              Register Now
             </a>
             <svg
               width="34"
@@ -55,13 +54,10 @@ export default function TerritoryHeroSection() {
         </div>
 
         <div className=" flex flex-col md:items-center  ">
-          <div
-            id="video"
-            className="absolute w-full md:w-[500px] mx-auto  filter drop-shadow-[0px_4px_8px_rgba(0,0,0,0.1)]   px-3 lg:p-0 lg:w-[500px] h-[250px] md:top-[350px] lg:left-[55%] lg:top-[120px] top-[330px] filter drop-shadow-[0px_4px_8px_rgba(0,_0,_0,_0.1)]"
-          >
+          <div className="absolute w-[360px] md:w-[500px] h-[250px]  left-[50%] transform -translate-x-[50%] -translate-y-[50%] lg:left-[73%] lg:top-[35%] lg:p-0  top-[400px] md:top-[480px]  filter drop-shadow-[0px_4px_8px_rgba(0,0,0,0.1)] px-3 lg:p-0 lg:w-[500px]">
             <img src="/hero_section_video.png" alt="video" />
             {/* Video icon svg */}
-            <div className="absolute w-[57.71px] h-[65.49px] left-[170px] md:left-[230px] md:top-[100px] lg:left-[225.06px] top-[70px] lg:top-[109.66px] ">
+            <div className="absolute w-[57.71px] h-[65.49px] left-[50%] transform -translate-x-[50%] top-[60px] md:top-[100px] lg:top-[109.66px]">
               <img src="/videoicon.png" alt="videoIcon" />
             </div>
           </div>

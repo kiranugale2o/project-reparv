@@ -22,8 +22,8 @@ export default function SolutionSection() {
         <div className="flex flex-col lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
           <div
-            className="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px] 
-  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white  border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]"
+            className="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px] bg-white
+  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] active:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)]   border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]"
           >
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full    bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
@@ -55,7 +55,7 @@ export default function SolutionSection() {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] active:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
                 <svg
@@ -85,7 +85,7 @@ export default function SolutionSection() {
             </div>
           </div>
           {/* Card 3 */}
-          <div className="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-6 gap-4 lg:w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] active:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
                 <svg
@@ -118,7 +118,7 @@ export default function SolutionSection() {
 
         {/* Second Row Cards */}
         <div className=" flex flex-col lg:flex-row items-center mt-10 gap-[30px] lg:w-[746px] h-[300px]">
-          <div className="flex flex-col items-start p-6 gap-[16px] w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-6 gap-[16px] w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] active:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             {/* Icon */}
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
@@ -149,7 +149,7 @@ export default function SolutionSection() {
             </div>
           </div>
 
-          <div className="flex flex-col items-start p-6 gap-[16px] w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-6 gap-[16px] w-[358px] h-[280px]  hover:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] active:bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white border-t-1 border-l-1 border-t-green-500 border-l-green-500 shadow-[0px_6px_16px_rgba(0,0,0,0.125)] rounded-[0px_12px_12px_12px]">
             {/* Icon 2 */}
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-gradient-to-t from-[rgba(11,181,1,0.06)] via-[rgba(11,181,1,0.06)] to-[rgba(11,181,1,0.06)] bg-white bg-white">
@@ -195,7 +195,7 @@ export default function SolutionSection() {
         {/* Project Partner Cards */}
         <div className=" greencard relative flex  w-full mt-20 lg:px-12  lg:mt-5 flex-col md:flex-col md:w-full lg:flex-row items-center  gap-[30px] lg:w-full   h-[268px]">
           {/* card 1 */}
-          <div className="flex  flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div className="flex  flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div className="relative w-[38px] h-[38px]">
               <div className="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
               <div className="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
@@ -213,7 +213,7 @@ export default function SolutionSection() {
             </div>
           </div>
           {/* card 2 */}
-          <div className="flex flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div className="flex flex-col items-start p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div className="relative w-[38px] h-[38px]">
               <div className="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
               <div className="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">
@@ -231,7 +231,7 @@ export default function SolutionSection() {
             </div>
           </div>
           {/* card 3 */}
-          <div className="flex flex-col items-start py-6 px-2  md:p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div className="flex flex-col items-start py-6 px-2  md:p-[24px] gap-[16px] lg:ml-2 w-[348px] h-[228px] bg-[#FFFFFF1A] rounded-[12px] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] hover:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div className="relative  w-[38px] h-[38px]">
               <div className="absolute w-[38px] h-[38px] left-[6px] rounded-full top-[16px] bg-[#FFFFFF33]"></div>
               <div className="absolute w-[12px] h-[36px] left-[19px] top-[17px] text-[24px] font-bold text-white leading-[150%]">

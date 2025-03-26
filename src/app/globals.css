@@ -131,7 +131,12 @@
 }
 
 @media (min-width: 400px) and (max-width: 780px) {
+  .hero {
+    width: 100%;
+    display: flex;
+  }
   #video {
-    width: 60%;
+    width: 30%;
+    margin-top: 90%;
   }
 }
