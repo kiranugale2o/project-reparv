@@ -4,15 +4,15 @@ export default function OnboardingHeroSection() {
       <div className="absolute flex flex-col w-full h-[480px] lg:h-[530px] md:h-[700px] left-0 lg:top-[70px]  bg-[url('/territorypartner_back.png')] bg-white/77 bg-cover rounded-[2px] backdrop-blur-[15px]  ">
         <div className="hidden md:flex lg:w-[180px] border absolute lg:flex flex-row justify-center items-center lg:p-2 h-[35px] md:left-[52px] lg:left-[172px] md:top-[100px] lg:top-[84px] bg-[rgba(255,_255,_255,_0.6)] rounded-[30px] ">
           <p className="w-full lg:w-[157px] h-[19px] px-1 font-inter font-semibold text-[16px] leading-[19px] text-[#F97316] ">
-            Onboaring Partner
+            Onboarding Partner
           </p>
         </div>
 
         <div className="flex w-full ">
-          <div className="md:mt-7 absolute flex flex-col items-center lg:items-start  md:p-5 w-full gap-2 lg:gap-5 lg:w-[486px] lg:h-[164px] lg:left-[152px] lg:top-[80px] top-[91px]">
+          <div className="md:mt-7 absolute flex flex-col items-center lg:items-start  md:p-5 w-full gap-2 lg:gap-5 lg:w-[516px] lg:h-[164px] lg:left-[152px] lg:top-[80px] top-[91px]">
             {" "}
             <h1 className=" font-inter font-bold  text-[36px] lg:text-[50px] font-bold leading-[40px] lg:leading-[50px] text-[#000000] ">
-              Onboaring Partner
+              Onboarding Partner
             </h1>
             <div className=" font-inter lg:font-sans  leading-[19px] text-center lg:text-start  flex-none order-0 self-stretch flex-grow-0 lg:flex w-full px-3 lg:p-0  lg:w-[450px] h-[38px]  font-semibold text-[16px] lg:text-[24px] lg:leading-[29px] text-[#F97316]">
               Monetize Your Network – List Properties & Get Bonuses!
@@ -23,7 +23,7 @@ export default function OnboardingHeroSection() {
             </div>
           </div>
 
-          {/* Register Button of  Onboaring  */}
+          {/* Register Button of  Onboarding  */}
           <div className="absolute hover:drop-shadow-xl  hover:bg-blue-400  focus:bg-blue-600 active:bg-blue-500  w-[237px] flex flex-row justify-center items-center h-[48px] lg:h-[58px] lg:h-[58px]  left-[50%]   md:top-[740px] lg:left-[170px] top-[550px]  lg:top-[381px] transform -translate-x-[50%] -translate-y-[50%]   lg:-translate-x-[0%] lg:-translate-y-[0%] bg-[#F97316] rounded-[8px]">
             <a
               href="/onboardingpartner#onboardingjoin"
