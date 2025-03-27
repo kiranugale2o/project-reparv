@@ -105,9 +105,16 @@ export default function Headers() {
               : "text-[#0BB501] "
           } flex-none  flex-grow-0`}
         >
-          {currentPath == "/territorypartner"
-            ? "Territory Partner"
-            : "Project Partner"}
+          {currentPath == "/territorypartner" ? (
+            "Territory Partner"
+          ) : (
+            <>
+              {" "}
+              {currentPath == "/projectpartner"
+                ? "Project Partner"
+                : "Onboaring Partner"}
+            </>
+          )}
           <svg
             width="24"
             height="24"

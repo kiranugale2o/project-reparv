@@ -1,56 +1,56 @@
 export default function OnboardingSolutionSection() {
   return (
-    <div className="absolute flex flex-col justify-between items-center p-0 gap-8  w-full  h-[518px]  top-[1100px]  lg:top-[1180px]">
+    <div className="absolute flex flex-col justify-between items-center p-0 gap-8  w-full  h-[518px]  top-[2600px]  lg:top-[2100px]">
       {/* Onboarding Market Reality Title  */}
       <div className="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
         <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#763000] text-[28px] lg:text-[40px] leading-[48px]">
-          Market Reality
+          Solution in Reparv
         </div>
 
-        <div className="p-2 lg:w-[614px] h-[60px] lg:h-[38px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] text-center">
-          The challenges that onboarding partners typically face in the real
-          estate market
+        <div className="p-2 lg:w-[614px] h-[60px] lg:h-[48px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] text-center">
+          How Reparv addresses these challenges and creates opportunities for
+          onboarding partners
         </div>
 
         {/* Orange line */}
         <div className="w-[100px] h-0 border-[2px]  border-[#F97316]"></div>
       </div>
-      <div className="flex relative flex-col mx-auto w-full items-center">
+      <div className="flex  relative flex-col w-full items-center">
         {/* first row of Cards */}
-        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+        <div className="flex flex-col p-2 lg:ml-0  w-full md:w-[500px] lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px]  bg-white bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[500px] md:mx-auto h-[158px] lg:h-[239px]  bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#FFF8F1] hover:bg-[#F7EFD8]">
                 <svg
-                  width="23"
-                  height="23"
-                  className="mt-[-12px] ml-[-12px]"
+                  width="24"
+                  height="24"
                   viewBox="0 0 24 24"
+                  className="mt-[-12px] ml-[-12px]"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M1 21L12 2L23 21H1ZM4.45 19H19.55L12 6L4.45 19ZM12 18C12.2833 18 12.5208 17.9042 12.7125 17.7125C12.9042 17.5208 13 17.2833 13 17C13 16.7167 12.9042 16.4792 12.7125 16.2875C12.5208 16.0958 12.2833 16 12 16C11.7167 16 11.4792 16.0958 11.2875 16.2875C11.0958 16.4792 11 16.7167 11 17C11 17.2833 11.0958 17.5208 11.2875 17.7125C11.4792 17.9042 11.7167 18 12 18ZM11 15H13V10H11V15Z"
-                    fill="black"
+                    d="M12 22C9.68333 21.4167 7.77083 20.0875 6.2625 18.0125C4.75417 15.9375 4 13.6333 4 11.1V5L12 2L20 5V11.1C20 13.6333 19.2458 15.9375 17.7375 18.0125C16.2292 20.0875 14.3167 21.4167 12 22ZM12 19.9C13.7333 19.35 15.1667 18.25 16.3 16.6C17.4333 14.95 18 13.1167 18 11.1V6.375L12 4.125L6 6.375V11.1C6 13.1167 6.56667 14.95 7.7 16.6C8.83333 18.25 10.2667 19.35 12 19.9Z"
+                    fill="#F97316"
                   />
                 </svg>
               </div>
             </div>
 
-            <div className="w-[203px]  h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
-              Property Owner Trust Issues
+            <div className="lg:w-[303px]  h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+              Building Trust with Property Owners
             </div>
 
-            <div className="w-[310px] lg:lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
-              Owners hesitate to list properties due to concerns about
-              transparency, hidden costs, or unfair deals.
+            <div className="w-full lg:w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+              Reparv ensures a transparent listing process with fair deals,
+              clear terms, and no hidden costs.
             </div>
           </div>
           {/* Card 2 */}
-          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[500px] md:mx-auto h-[158px] lg:h-[239px] bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#FFF8F1] hover:bg-[#F7EFD8]">
                 <svg
                   width="24"
                   height="24"
@@ -60,26 +60,26 @@ export default function OnboardingSolutionSection() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M5 20V14H8V20H5ZM11 20V9H14V20H11ZM17 20V4H20V20H17Z"
-                    fill="black"
+                    d="M12 22C10.6333 22 9.34167 21.7375 8.125 21.2125C6.90833 20.6875 5.84583 19.9708 4.9375 19.0625C4.02917 18.1542 3.3125 17.0917 2.7875 15.875C2.2625 14.6583 2 13.3667 2 12C2 10.6167 2.2625 9.32083 2.7875 8.1125C3.3125 6.90417 4.02917 5.84583 4.9375 4.9375C5.84583 4.02917 6.90833 3.3125 8.125 2.7875C9.34167 2.2625 10.6333 2 12 2C13.3833 2 14.6792 2.2625 15.8875 2.7875C17.0958 3.3125 18.1542 4.02917 19.0625 4.9375C19.9708 5.84583 20.6875 6.90417 21.2125 8.1125C21.7375 9.32083 22 10.6167 22 12C22 13.3667 21.7375 14.6583 21.2125 15.875C20.6875 17.0917 19.9708 18.1542 19.0625 19.0625C18.1542 19.9708 17.0958 20.6875 15.8875 21.2125C14.6792 21.7375 13.3833 22 12 22ZM12 19.95C12.4333 19.35 12.8083 18.725 13.125 18.075C13.4417 17.425 13.7 16.7333 13.9 16H10.1C10.3 16.7333 10.5583 17.425 10.875 18.075C11.1917 18.725 11.5667 19.35 12 19.95ZM9.4 19.55C9.1 19 8.8375 18.4292 8.6125 17.8375C8.3875 17.2458 8.2 16.6333 8.05 16H5.1C5.58333 16.8333 6.1875 17.5583 6.9125 18.175C7.6375 18.7917 8.46667 19.25 9.4 19.55ZM14.6 19.55C15.5333 19.25 16.3625 18.7917 17.0875 18.175C17.8125 17.5583 18.4167 16.8333 18.9 16H15.95C15.8 16.6333 15.6125 17.2458 15.3875 17.8375C15.1625 18.4292 14.9 19 14.6 19.55ZM4.25 14H7.65C7.6 13.6667 7.5625 13.3375 7.5375 13.0125C7.5125 12.6875 7.5 12.35 7.5 12C7.5 11.65 7.5125 11.3125 7.5375 10.9875C7.5625 10.6625 7.6 10.3333 7.65 10H4.25C4.16667 10.3333 4.10417 10.6625 4.0625 10.9875C4.02083 11.3125 4 11.65 4 12C4 12.35 4.02083 12.6875 4.0625 13.0125C4.10417 13.3375 4.16667 13.6667 4.25 14ZM9.65 14H14.35C14.4 13.6667 14.4375 13.3375 14.4625 13.0125C14.4875 12.6875 14.5 12.35 14.5 12C14.5 11.65 14.4875 11.3125 14.4625 10.9875C14.4375 10.6625 14.4 10.3333 14.35 10H9.65C9.6 10.3333 9.5625 10.6625 9.5375 10.9875C9.5125 11.3125 9.5 11.65 9.5 12C9.5 12.35 9.5125 12.6875 9.5375 13.0125C9.5625 13.3375 9.6 13.6667 9.65 14ZM16.35 14H19.75C19.8333 13.6667 19.8958 13.3375 19.9375 13.0125C19.9792 12.6875 20 12.35 20 12C20 11.65 19.9792 11.3125 19.9375 10.9875C19.8958 10.6625 19.8333 10.3333 19.75 10H16.35C16.4 10.3333 16.4375 10.6625 16.4625 10.9875C16.4875 11.3125 16.5 11.65 16.5 12C16.5 12.35 16.4875 12.6875 16.4625 13.0125C16.4375 13.3375 16.4 13.6667 16.35 14ZM15.95 8H18.9C18.4167 7.16667 17.8125 6.44167 17.0875 5.825C16.3625 5.20833 15.5333 4.75 14.6 4.45C14.9 5 15.1625 5.57083 15.3875 6.1625C15.6125 6.75417 15.8 7.36667 15.95 8ZM10.1 8H13.9C13.7 7.26667 13.4417 6.575 13.125 5.925C12.8083 5.275 12.4333 4.65 12 4.05C11.5667 4.65 11.1917 5.275 10.875 5.925C10.5583 6.575 10.3 7.26667 10.1 8ZM5.1 8H8.05C8.2 7.36667 8.3875 6.75417 8.6125 6.1625C8.8375 5.57083 9.1 5 9.4 4.45C8.46667 4.75 7.6375 5.20833 6.9125 5.825C6.1875 6.44167 5.58333 7.16667 5.1 8Z"
+                    fill="#F97316"
                   />
                 </svg>
               </div>
             </div>
 
-            <div className="w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
-              Limited Property Visibility
+            <div className=" w-full lg:w-[233px] h-[17px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+              Wider Market Reach
             </div>
 
-            <div className="w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
-              Many listings fail to reach the right buyers due to poor marketing
-              or low platform reach.
+            <div className="w-full lg:w-[310px]  text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+              Our platform offers high visibility through digital marketing,
+              verified buyer networks, and strategic promotions.
             </div>
           </div>
           {/* Card 3 */}
-          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[500px] md:mx-auto h-[158px] lg:h-[239px] bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#FFF8F1] hover:bg-[#F7EFD8]">
                 <svg
                   width="24"
                   height="24"
@@ -89,18 +89,18 @@ export default function OnboardingSolutionSection() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M15.3 16.7L16.7 15.3L13 11.6V7H11V12.4L15.3 16.7ZM12 22C10.6167 22 9.31667 21.7375 8.1 21.2125C6.88333 20.6875 5.825 19.975 4.925 19.075C4.025 18.175 3.3125 17.1167 2.7875 15.9C2.2625 14.6833 2 13.3833 2 12C2 10.6167 2.2625 9.31667 2.7875 8.1C3.3125 6.88333 4.025 5.825 4.925 4.925C5.825 4.025 6.88333 3.3125 8.1 2.7875C9.31667 2.2625 10.6167 2 12 2C13.3833 2 14.6833 2.2625 15.9 2.7875C17.1167 3.3125 18.175 4.025 19.075 4.925C19.975 5.825 20.6875 6.88333 21.2125 8.1C21.7375 9.31667 22 10.6167 22 12C22 13.3833 21.7375 14.6833 21.2125 15.9C20.6875 17.1167 19.975 18.175 19.075 19.075C18.175 19.975 17.1167 20.6875 15.9 21.2125C14.6833 21.7375 13.3833 22 12 22ZM12 20C14.2167 20 16.1042 19.2208 17.6625 17.6625C19.2208 16.1042 20 14.2167 20 12C20 9.78333 19.2208 7.89583 17.6625 6.3375C16.1042 4.77917 14.2167 4 12 4C9.78333 4 7.89583 4.77917 6.3375 6.3375C4.77917 7.89583 4 9.78333 4 12C4 14.2167 4.77917 16.1042 6.3375 17.6625C7.89583 19.2208 9.78333 20 12 20Z"
-                    fill="black"
+                    d="M10.55 18.2L15.725 12H11.725L12.45 6.325L7.825 13H11.3L10.55 18.2ZM8 22L9 15H4L13 2H15L14 10H20L10 22H8Z"
+                    fill="#F97316"
                   />
                 </svg>
               </div>
             </div>
 
             <div className="lg:w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
-              Delayed Sales & Earnings
+              Faster Sales & Guaranteed Earnings
             </div>
 
-            <div className="lg:w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="lg:w-[310px] lg:mt-10 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Onboarding partners often face long sales cycles, delaying their
               commission payouts.
             </div>
@@ -110,9 +110,38 @@ export default function OnboardingSolutionSection() {
         {/* Second Row Cards with */}
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px]  bg-white bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[500px] md:mx-auto h-[158px] lg:h-[239px]  bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#FFF8F1] hover:bg-[#F7EFD8]">
+                <svg
+                  width="16"
+                  height="21"
+                  viewBox="0 0 16 21"
+                  className="ml-[-8px] mt-[-12px]"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2 20.5V13.1429C1.36667 12.4762 0.875 11.7143 0.525 10.8571C0.175 10 0 9.0873 0 8.11905C0 5.99206 0.775 4.19048 2.325 2.71429C3.875 1.2381 5.76667 0.5 8 0.5C10.2333 0.5 12.125 1.2381 13.675 2.71429C15.225 4.19048 16 5.99206 16 8.11905C16 9.0873 15.825 10 15.475 10.8571C15.125 11.7143 14.6333 12.4762 14 13.1429V20.5L8 18.5952L2 20.5ZM8 13.8333C9.66667 13.8333 11.0833 13.2778 12.25 12.1667C13.4167 11.0556 14 9.70635 14 8.11905C14 6.53175 13.4167 5.18254 12.25 4.07143C11.0833 2.96032 9.66667 2.40476 8 2.40476C6.33333 2.40476 4.91667 2.96032 3.75 4.07143C2.58333 5.18254 2 6.53175 2 8.11905C2 9.70635 2.58333 11.0556 3.75 12.1667C4.91667 13.2778 6.33333 13.8333 8 13.8333ZM4 17.6667L8 16.6905L12 17.6667V14.7143C11.4167 15.0317 10.7875 15.2817 10.1125 15.4643C9.4375 15.6468 8.73333 15.7381 8 15.7381C7.26667 15.7381 6.5625 15.6468 5.8875 15.4643C5.2125 15.2817 4.58333 15.0317 4 14.7143V17.6667Z"
+                    fill="#F97316"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <div className="w-full lg:w-[243px]  h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+              Less Competition, More Opportunities
+            </div>
+
+            <div className="w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+              Reparv provides exclusive listing opportunities and supports
+              partners in securing high-value properties.
+            </div>
+          </div>
+          {/* Card 2 */}
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[500px] md:mx-auto h-[158px] lg:h-[239px] bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#FFF8F1] hover:bg-[#F7EFD8]">
                 <svg
                   width="24"
                   height="25"
@@ -122,87 +151,58 @@ export default function OnboardingSolutionSection() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M1 20.5V17.7C1 17.1333 1.14583 16.6125 1.4375 16.1375C1.72917 15.6625 2.11667 15.3 2.6 15.05C3.63333 14.5333 4.68333 14.1458 5.75 13.8875C6.81667 13.6292 7.9 13.5 9 13.5C10.1 13.5 11.1833 13.6292 12.25 13.8875C13.3167 14.1458 14.3667 14.5333 15.4 15.05C15.8833 15.3 16.2708 15.6625 16.5625 16.1375C16.8542 16.6125 17 17.1333 17 17.7V20.5H1ZM19 20.5V17.5C19 16.7667 18.7958 16.0625 18.3875 15.3875C17.9792 14.7125 17.4 14.1333 16.65 13.65C17.5 13.75 18.3 13.9208 19.05 14.1625C19.8 14.4042 20.5 14.7 21.15 15.05C21.75 15.3833 22.2083 15.7542 22.525 16.1625C22.8417 16.5708 23 17.0167 23 17.5V20.5H19ZM9 12.5C7.9 12.5 6.95833 12.1083 6.175 11.325C5.39167 10.5417 5 9.6 5 8.5C5 7.4 5.39167 6.45833 6.175 5.675C6.95833 4.89167 7.9 4.5 9 4.5C10.1 4.5 11.0417 4.89167 11.825 5.675C12.6083 6.45833 13 7.4 13 8.5C13 9.6 12.6083 10.5417 11.825 11.325C11.0417 12.1083 10.1 12.5 9 12.5ZM19 8.5C19 9.6 18.6083 10.5417 17.825 11.325C17.0417 12.1083 16.1 12.5 15 12.5C14.8167 12.5 14.5833 12.4792 14.3 12.4375C14.0167 12.3958 13.7833 12.35 13.6 12.3C14.05 11.7667 14.3958 11.175 14.6375 10.525C14.8792 9.875 15 9.2 15 8.5C15 7.8 14.8792 7.125 14.6375 6.475C14.3958 5.825 14.05 5.23333 13.6 4.7C13.8333 4.61667 14.0667 4.5625 14.3 4.5375C14.5333 4.5125 14.7667 4.5 15 4.5C16.1 4.5 17.0417 4.89167 17.825 5.675C18.6083 6.45833 19 7.4 19 8.5ZM3 18.5H15V17.7C15 17.5167 14.9542 17.35 14.8625 17.2C14.7708 17.05 14.65 16.9333 14.5 16.85C13.6 16.4 12.6917 16.0625 11.775 15.8375C10.8583 15.6125 9.93333 15.5 9 15.5C8.06667 15.5 7.14167 15.6125 6.225 15.8375C5.30833 16.0625 4.4 16.4 3.5 16.85C3.35 16.9333 3.22917 17.05 3.1375 17.2C3.04583 17.35 3 17.5167 3 17.7V18.5ZM9 10.5C9.55 10.5 10.0208 10.3042 10.4125 9.9125C10.8042 9.52083 11 9.05 11 8.5C11 7.95 10.8042 7.47917 10.4125 7.0875C10.0208 6.69583 9.55 6.5 9 6.5C8.45 6.5 7.97917 6.69583 7.5875 7.0875C7.19583 7.47917 7 7.95 7 8.5C7 9.05 7.19583 9.52083 7.5875 9.9125C7.97917 10.3042 8.45 10.5 9 10.5Z"
-                    fill="black"
+                    d="M5 21.5C4.45 21.5 3.97917 21.3042 3.5875 20.9125C3.19583 20.5208 3 20.05 3 19.5V5.5C3 4.95 3.19583 4.47917 3.5875 4.0875C3.97917 3.69583 4.45 3.5 5 3.5H19C19.1333 3.5 19.2583 3.5125 19.375 3.5375C19.4917 3.5625 19.6083 3.6 19.725 3.65L17.875 5.5H5V19.5H19V12.85L21 10.85V19.5C21 20.05 20.8042 20.5208 20.4125 20.9125C20.0208 21.3042 19.55 21.5 19 21.5H5ZM11.525 17.5L5.875 11.85L7.275 10.45L11.525 14.7L20.7 5.525L22.125 6.9L11.525 17.5Z"
+                    fill="#F97316"
                   />
                 </svg>
               </div>
             </div>
 
-            <div className="w-full lg:w-[203px]  h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
-              Competition & Market Saturation
+            <div className="w-full lg:w-[283px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+              Simplified Verification & Documentation
             </div>
 
             <div className="w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
-              High competition makes it challenging to secure exclusive property
-              listings.
-            </div>
-          </div>
-          {/* Card 2 */}
-          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
-            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  className="mt-[-12px] ml-[-12px]"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M10.95 18L16.6 12.35L15.15 10.9L10.925 15.125L8.825 13.025L7.4 14.45L10.95 18ZM6 22C5.45 22 4.97917 21.8042 4.5875 21.4125C4.19583 21.0208 4 20.55 4 20V4C4 3.45 4.19583 2.97917 4.5875 2.5875C4.97917 2.19583 5.45 2 6 2H14L20 8V20C20 20.55 19.8042 21.0208 19.4125 21.4125C19.0208 21.8042 18.55 22 18 22H6ZM13 9V4H6V20H18V9H13Z"
-                    fill="black"
-                  />
-                </svg>
-              </div>
-            </div>
-
-            <div className="w-[283px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
-              Verification & Documentation Hassles
-            </div>
-
-            <div className="w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
-              Ensuring property authenticity and managing paperwork can be
-              time-consuming.
+              We assist in property verification and streamline paperwork to
+              ensure hassle-free listings.
             </div>
           </div>
           {/* Card 3 */}
-          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[500px] md:mx-auto h-[158px] lg:h-[239px] bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#FFF8F1] hover:bg-[#F7EFD8]">
                 <svg
                   width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
+                  height="25"
+                  viewBox="0 0 24 25"
                   className="mt-[-12px] ml-[-12px]"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M13.725 21L7 14V12H10.5C11.3833 12 12.1458 11.7125 12.7875 11.1375C13.4292 10.5625 13.8167 9.85 13.95 9H6V7H13.65C13.3667 6.41667 12.9458 5.9375 12.3875 5.5625C11.8292 5.1875 11.2 5 10.5 5H6V3H18V5H14.75C14.9833 5.28333 15.1917 5.59167 15.375 5.925C15.5583 6.25833 15.7 6.61667 15.8 7H18V9H15.975C15.8417 10.4167 15.2583 11.6042 14.225 12.5625C13.1917 13.5208 11.95 14 10.5 14H9.775L16.5 21H13.725Z"
-                    fill="black"
+                    d="M13.725 21.5L7 14.5V12.5H10.5C11.3833 12.5 12.1458 12.2125 12.7875 11.6375C13.4292 11.0625 13.8167 10.35 13.95 9.5H6V7.5H13.65C13.3667 6.91667 12.9458 6.4375 12.3875 6.0625C11.8292 5.6875 11.2 5.5 10.5 5.5H6V3.5H18V5.5H14.75C14.9833 5.78333 15.1917 6.09167 15.375 6.425C15.5583 6.75833 15.7 7.11667 15.8 7.5H18V9.5H15.975C15.8417 10.9167 15.2583 12.1042 14.225 13.0625C13.1917 14.0208 11.95 14.5 10.5 14.5H9.775L16.5 21.5H13.725Z"
+                    fill="#F97316"
                   />
                 </svg>
               </div>
             </div>
 
             <div className="lg:w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
-              Unclear Earning Potential
+              Structured Bonus & Commission Model
             </div>
 
             <div className="lg:w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
-              Many platforms lack structured incentive programs, making earnings
-              unpredictable.
+              A transparent incentive system ensures onboarding partners earn
+              well for every successful sale.
             </div>
           </div>
         </div>
 
         {/* Third row of Cards */}
         <div className="flex mx-auto items-center justify-center p-2 w-full md:w-[500px] sm:w-[500px]">
-          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[500px] md:mx-auto h-[158px] lg:h-[239px] bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#FFF8F1] hover:bg-[#F7EFD8]">
                 <svg
                   width="24"
                   height="24"
@@ -212,21 +212,165 @@ export default function OnboardingSolutionSection() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M6.5 16C7.28333 16 8.04583 16.0875 8.7875 16.2625C9.52917 16.4375 10.2667 16.7 11 17.05V7.2C10.3167 6.8 9.59167 6.5 8.825 6.3C8.05833 6.1 7.28333 6 6.5 6C5.9 6 5.30417 6.05833 4.7125 6.175C4.12083 6.29167 3.55 6.46667 3 6.7V16.6C3.58333 16.4 4.1625 16.25 4.7375 16.15C5.3125 16.05 5.9 16 6.5 16ZM13 17.05C13.7333 16.7 14.4708 16.4375 15.2125 16.2625C15.9542 16.0875 16.7167 16 17.5 16C18.1 16 18.6875 16.05 19.2625 16.15C19.8375 16.25 20.4167 16.4 21 16.6V6.7C20.45 6.46667 19.8792 6.29167 19.2875 6.175C18.6958 6.05833 18.1 6 17.5 6C16.7167 6 15.9417 6.1 15.175 6.3C14.4083 6.5 13.6833 6.8 13 7.2V17.05ZM12 20C11.2 19.3667 10.3333 18.875 9.4 18.525C8.46667 18.175 7.5 18 6.5 18C5.8 18 5.1125 18.0917 4.4375 18.275C3.7625 18.4583 3.11667 18.7167 2.5 19.05C2.15 19.2333 1.8125 19.225 1.4875 19.025C1.1625 18.825 1 18.5333 1 18.15V6.1C1 5.91667 1.04583 5.74167 1.1375 5.575C1.22917 5.40833 1.36667 5.28333 1.55 5.2C2.31667 4.8 3.11667 4.5 3.95 4.3C4.78333 4.1 5.63333 4 6.5 4C7.46667 4 8.4125 4.125 9.3375 4.375C10.2625 4.625 11.15 5 12 5.5C12.85 5 13.7375 4.625 14.6625 4.375C15.5875 4.125 16.5333 4 17.5 4C18.3667 4 19.2167 4.1 20.05 4.3C20.8833 4.5 21.6833 4.8 22.45 5.2C22.6333 5.28333 22.7708 5.40833 22.8625 5.575C22.9542 5.74167 23 5.91667 23 6.1V18.15C23 18.5333 22.8375 18.825 22.5125 19.025C22.1875 19.225 21.85 19.2333 21.5 19.05C20.8833 18.7167 20.2375 18.4583 19.5625 18.275C18.8875 18.0917 18.2 18 17.5 18C16.5 18 15.5333 18.175 14.6 18.525C13.6667 18.875 12.8 19.3667 12 20Z"
-                    fill="black"
+                    d="M10 18C9.45 18 8.97917 17.8042 8.5875 17.4125C8.19583 17.0208 8 16.55 8 16V14.75C7.05 14.1 6.3125 13.2667 5.7875 12.25C5.2625 11.2333 5 10.15 5 9C5 7.05 5.67917 5.39583 7.0375 4.0375C8.39583 2.67917 10.05 2 12 2C13.95 2 15.6042 2.67917 16.9625 4.0375C18.3208 5.39583 19 7.05 19 9C19 10.15 18.7375 11.2292 18.2125 12.2375C17.6875 13.2458 16.95 14.0833 16 14.75V16C16 16.55 15.8042 17.0208 15.4125 17.4125C15.0208 17.8042 14.55 18 14 18H10ZM10 16H14V13.7L14.85 13.1C15.5333 12.6333 16.0625 12.0375 16.4375 11.3125C16.8125 10.5875 17 9.81667 17 9C17 7.61667 16.5125 6.4375 15.5375 5.4625C14.5625 4.4875 13.3833 4 12 4C10.6167 4 9.4375 4.4875 8.4625 5.4625C7.4875 6.4375 7 7.61667 7 9C7 9.81667 7.1875 10.5875 7.5625 11.3125C7.9375 12.0375 8.46667 12.6333 9.15 13.1L10 13.7V16ZM10 22C9.71667 22 9.47917 21.9042 9.2875 21.7125C9.09583 21.5208 9 21.2833 9 21V20H15V21C15 21.2833 14.9042 21.5208 14.7125 21.7125C14.5208 21.9042 14.2833 22 14 22H10Z"
+                    fill="#F97316"
                   />
                 </svg>
               </div>
             </div>
 
-            <div className="lg:w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
-              Lack of Training & Support
+            <div className="w-full lg:w-[233px] h-[17px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+              Training & Support System
             </div>
 
             <div className="lg:w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
-              Onboarding partners may struggle without proper guidance on
-              listing optimization and client handling.
+              Reparv offers expert guidance, tools, and training to help
+              onboarding partners optimize listings and close deals effectively.
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Who Will Become the An Project Partner section */}
+
+      <div className=" flex flex-col items-start  gap-[32px]  p-5 lg:py-24 lg:p-24 w-full h-[1516px] lg:h-[571px]  bg-[#874A20]">
+        <div className="flex flex-col items-start  gap-[16px] w-full md:h-[60px] h-[150px] lg:h-[88px]">
+          {/* Heading */}
+          <h2 className="w-full h-[100px] md:h-[50px] lg:h-[48px] font-semibold text-4xl leading-[48px] text-center text-white">
+            Who Will Become An Project Partner?
+          </h2>
+          {/* Paragraph */}
+          <p className="w-full h-[24px] font-medium text-[16px] leading-[150%] text-center text-white">
+            Reparv welcomes partners from diverse backgrounds who share a
+            passion for real estate
+          </p>
+        </div>
+        {/* Boxes */}
+        <div className="flex flex-col lg:flex-row justify-center items-center p-0 gap-[30px] w-full h-[1200px] lg:h-[323px] ">
+          {/* Students Box */}
+          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+            <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                className="mt-[-11px] ml-[-12px]"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.4992 20.4L5.89922 17.1V11.1L1.69922 8.99998L12.4992 3.59998L23.2992 8.99998V16.8H21.4992V9.89998L19.0992 11.1V17.1L12.4992 20.4ZM12.4992 12.375L19.2742 8.99998L12.4992 5.62498L5.72422 8.99998L12.4992 12.375ZM12.4992 18.375L17.2992 15.975V12L12.4992 14.4L7.69922 12V15.975L12.4992 18.375Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <p className="lg:w-[88px] h-[14px] lg:h-[24px] font-semibold text-[16px] lg:text-[20px] leading-[24px] text-white">
+              Students
+            </p>
+            <p className="w-full  text-start h-[30px] lg:w-[131px] lg:h-[133px] font-medium text-[12px] text-[15px]  lg:text-[16px] leading-[19px] lg:text-center text-[rgba(255,255,255,0.6)]">
+              Perfect for students looking to earn while they learn and build
+              valuable real estate connections.
+            </p>
+          </div>
+          {/* Working Professionals Box */}
+          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+            <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                className="mt-[-12px] ml-[-12px]"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.5 21C3.95 21 3.47917 20.8042 3.0875 20.4125C2.69583 20.0208 2.5 19.55 2.5 19V8C2.5 7.45 2.69583 6.97917 3.0875 6.5875C3.47917 6.19583 3.95 6 4.5 6H8.5V4C8.5 3.45 8.69583 2.97917 9.0875 2.5875C9.47917 2.19583 9.95 2 10.5 2H14.5C15.05 2 15.5208 2.19583 15.9125 2.5875C16.3042 2.97917 16.5 3.45 16.5 4V6H20.5C21.05 6 21.5208 6.19583 21.9125 6.5875C22.3042 6.97917 22.5 7.45 22.5 8V19C22.5 19.55 22.3042 20.0208 21.9125 20.4125C21.5208 20.8042 21.05 21 20.5 21H4.5ZM10.5 6H14.5V4H10.5V6ZM6.5 8H4.5V19H6.5V8ZM16.5 19V8H8.5V19H16.5ZM18.5 8V19H20.5V8H18.5Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <p className="lg:w-[131px] h-[48px] font-semibold text-[20px] leading-[24px] text-center text-white">
+              Working Professionals
+            </p>
+            <p className="lg:w-[131px] h-[114px] font-medium text-[16px] leading-[19px] text-center text-[rgba(255,255,255,0.6)]">
+              Ideal for those seeking additional income streams alongside their
+              regular careers.
+            </p>
+          </div>
+          {/* House Wives Box*/}
+          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+            <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                className="mt-[-12px] ml-[-12px]"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 19H9V13H15V19H18V10L12 5.5L6 10V19ZM4 21V9L12 3L20 9V21H13V15H11V21H4Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <p className="lg:w-[112px] h-[24px] font-semibold text-[20px] leading-[24px] text-center text-white">
+              House Wife
+            </p>
+            <p className="lg:w-[132px] h-[114px] font-medium text-[16px] leading-[19px] text-center text-[rgba(255,255,255,0.6)]">
+              Flexible opportunity for homemakers to utilize their network and
+              earn from home.
+            </p>
+          </div>
+          {/* Property Owners Box */}
+          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+            <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                className="mt-[-12px] ml-[-12px]"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.5 21V7H7.5V3H17.5V11H21.5V21H13.5V17H11.5V21H3.5ZM5.5 19H7.5V17H5.5V19ZM5.5 15H7.5V13H5.5V15ZM5.5 11H7.5V9H5.5V11ZM9.5 15H11.5V13H9.5V15ZM9.5 11H11.5V9H9.5V11ZM9.5 7H11.5V5H9.5V7ZM13.5 15H15.5V13H13.5V15ZM13.5 11H15.5V9H13.5V11ZM13.5 7H15.5V5H13.5V7ZM17.5 19H19.5V17H17.5V19ZM17.5 15H19.5V13H17.5V15Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <p className="lg:w-[85px] h-[48px] font-semibold text-[20px] leading-[24px] text-center text-white">
+              Property Owners
+            </p>
+            <p className="lg:w-[131px] h-[114px] font-medium text-[16px] leading-[19px] text-center text-[rgba(255,255,255,0.6)]">
+              For those who already own properties and understand the real
+              estate market.
+            </p>
+          </div>
+          {/* Anyone with Interest Box */}
+          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+            <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                className="mt-[-12px] ml-[-12px]"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.5 20V17.2C1.5 16.6333 1.64583 16.1125 1.9375 15.6375C2.22917 15.1625 2.61667 14.8 3.1 14.55C4.13333 14.0333 5.18333 13.6458 6.25 13.3875C7.31667 13.1292 8.4 13 9.5 13C10.6 13 11.6833 13.1292 12.75 13.3875C13.8167 13.6458 14.8667 14.0333 15.9 14.55C16.3833 14.8 16.7708 15.1625 17.0625 15.6375C17.3542 16.1125 17.5 16.6333 17.5 17.2V20H1.5ZM19.5 20V17C19.5 16.2667 19.2958 15.5625 18.8875 14.8875C18.4792 14.2125 17.9 13.6333 17.15 13.15C18 13.25 18.8 13.4208 19.55 13.6625C20.3 13.9042 21 14.2 21.65 14.55C22.25 14.8833 22.7083 15.2542 23.025 15.6625C23.3417 16.0708 23.5 16.5167 23.5 17V20H19.5ZM9.5 12C8.4 12 7.45833 11.6083 6.675 10.825C5.89167 10.0417 5.5 9.1 5.5 8C5.5 6.9 5.89167 5.95833 6.675 5.175C7.45833 4.39167 8.4 4 9.5 4C10.6 4 11.5417 4.39167 12.325 5.175C13.1083 5.95833 13.5 6.9 13.5 8C13.5 9.1 13.1083 10.0417 12.325 10.825C11.5417 11.6083 10.6 12 9.5 12ZM19.5 8C19.5 9.1 19.1083 10.0417 18.325 10.825C17.5417 11.6083 16.6 12 15.5 12C15.3167 12 15.0833 11.9792 14.8 11.9375C14.5167 11.8958 14.2833 11.85 14.1 11.8C14.55 11.2667 14.8958 10.675 15.1375 10.025C15.3792 9.375 15.5 8.7 15.5 8C15.5 7.3 15.3792 6.625 15.1375 5.975C14.8958 5.325 14.55 4.73333 14.1 4.2C14.3333 4.11667 14.5667 4.0625 14.8 4.0375C15.0333 4.0125 15.2667 4 15.5 4C16.6 4 17.5417 4.39167 18.325 5.175C19.1083 5.95833 19.5 6.9 19.5 8ZM3.5 18H15.5V17.2C15.5 17.0167 15.4542 16.85 15.3625 16.7C15.2708 16.55 15.15 16.4333 15 16.35C14.1 15.9 13.1917 15.5625 12.275 15.3375C11.3583 15.1125 10.4333 15 9.5 15C8.56667 15 7.64167 15.1125 6.725 15.3375C5.80833 15.5625 4.9 15.9 4 16.35C3.85 16.4333 3.72917 16.55 3.6375 16.7C3.54583 16.85 3.5 17.0167 3.5 17.2V18ZM9.5 10C10.05 10 10.5208 9.80417 10.9125 9.4125C11.3042 9.02083 11.5 8.55 11.5 8C11.5 7.45 11.3042 6.97917 10.9125 6.5875C10.5208 6.19583 10.05 6 9.5 6C8.95 6 8.47917 6.19583 8.0875 6.5875C7.69583 6.97917 7.5 7.45 7.5 8C7.5 8.55 7.69583 9.02083 8.0875 9.4125C8.47917 9.80417 8.95 10 9.5 10Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+            <p className="lg:w-[86px] h-[48px] font-semibold text-[20px] leading-[24px] text-center text-white">
+              &amp; As per interest
+            </p>
+            <p className="lg:w-[131px] h-[114px] font-medium text-[16px] leading-[19px] text-center text-[rgba(255,255,255,0.6)]">
+              Anyone with interest in real estate and a desire to earn through
+              property listings.
+            </p>
           </div>
         </div>
       </div>

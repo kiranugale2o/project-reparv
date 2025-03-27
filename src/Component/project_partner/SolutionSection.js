@@ -1,7 +1,7 @@
 export default function SolutionSection() {
   return (
     //   {/* Solution Reparv Section */}
-    <div className="absolute flex flex-col lg:items-center p-0 gap-8 w-full top-[2850px]  lg:top-[2248px]">
+    <div className="absolute flex flex-col  lg:items-center p-0 gap-8 w-full top-[2850px]  lg:top-[2248px]">
       <div className="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
         <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
           Solution in Reparv
@@ -17,7 +17,7 @@ export default function SolutionSection() {
       </div>
 
       {/* Cards oF Solution section */}
-      <div className="p-3 flex lg:p-0 lg:ml-0 lg:mx-20   flex-col w-full items-center">
+      <div className="p-3 flex lg:p-0 lg:ml-0   mx-auto  flex-col w-full items-center">
         {/* Cards */}
         <div className="flex flex-col lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}

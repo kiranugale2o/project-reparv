@@ -1,6 +1,6 @@
 export default function OnboardingMarketReality() {
   return (
-    <div className="absolute flex flex-col justify-between items-center p-0 gap-8  w-full  h-[518px]  top-[1100px]  lg:top-[1180px]">
+    <div className="absolute flex flex-col justify-between items-center p-0 gap-8  w-full  h-[518px]  top-[1100px]  lg:top-[1080px]">
       {/* Onboarding Market Reality Title  */}
       <div className="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
         <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#763000] text-[28px] lg:text-[40px] leading-[48px]">

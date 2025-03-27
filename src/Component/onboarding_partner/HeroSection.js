@@ -26,7 +26,7 @@ export default function OnboardingHeroSection() {
           {/* Register Button of  Onboaring  */}
           <div className="absolute hover:drop-shadow-xl  hover:bg-blue-400  focus:bg-blue-600 active:bg-blue-500  w-[237px] flex flex-row justify-center items-center h-[48px] lg:h-[58px] lg:h-[58px]  left-[50%]   md:top-[740px] lg:left-[170px] top-[550px]  lg:top-[381px] transform -translate-x-[50%] -translate-y-[50%]   lg:-translate-x-[0%] lg:-translate-y-[0%] bg-[#F97316] rounded-[8px]">
             <a
-              href="/ Onboaringpartner# Onboaring_partner_join"
+              href="/onboardingpartner#onboardingjoin"
               className="w-[104px] item-start font-inter font-semibold lg:w-[155px] flex lg:h-[29px] text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0"
             >
               Register Now

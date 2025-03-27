@@ -3,7 +3,7 @@ export default function HeroSection() {
   return (
     <div
       id="home"
-      className="flex   justify-between w-full flex-col bg-[url('/herosection_back.png')] bg-repeat-y bg-cover bg-contain  h-[530px] lg:h-[650px]  "
+      className="flex   justify-between w-full flex-col bg-[url('/herosection_back.png')] bg-repeat-y bg-cover bg-contain md:h-[600px]  h-[530px] lg:h-[650px]  "
     >
       <div className="flex w-full  md:w-full  ">
         <div className="flex flex-col">
@@ -15,14 +15,14 @@ export default function HeroSection() {
           {/* Text Content */}
           <div className="md:mt-7   absolute flex flex-col items-start md:items-center p-5 lg:p-0  w-full gap-6 lg:w-[486px] h-[164px] lg:left-[152px] lg:top-[164px] top-[91px]">
             {" "}
-            <h1 className=" font-inter font-bold text-[36px] lg:text-[50px] font-bold leading-[40px] lg:leading-[50px] text-[#000000] ">
+            <h1 className=" font-inter  font-bold text-[36px] lg:text-[50px] font-bold leading-[40px] lg:leading-[50px] text-[#000000] ">
               Empower Investors, Earn Together
             </h1>
             <div className="hidden lg:flex lg:font-normal lg:text-[20px] lg:leading-[24px] text-[rgba(0,_0,_0,_0.6)] flex-none ">
               Collaborate with us to build a transparent and profitable real
               estate ecosystem.
             </div>
-            <div className="lg:hidden flex text-center lg:w-[358px] md:w-[700px] h-[54px] font-inter font-medium md:text-[18px] text-[12px] leading-[18px]   text-[rgba(0,_0,_0,_0.6)] flex-none ">
+            <div className="lg:hidden md:flex flex text-center lg:w-[358px] md:w-[700px] h-[54px] font-inter font-medium text-[14px] md:text-[20px]  leading-[18px]   text-[rgba(0,_0,_0,_0.6)] flex-none ">
               Explore exciting opportunities in real estate sales with expert
               guidance. Unlock your potential and take the first step toward
               rewarding growth!
@@ -31,9 +31,9 @@ export default function HeroSection() {
         </div>
 
         {/* Register Button */}
-        <div className="absolute hover:drop-shadow-xl  hover:bg-blue-400  focus:bg-blue-600 active:bg-blue-500  w-[237px] flex flex-row justify-center items-center h-[48px] lg:h-[58px] lg:h-[58px]  left-[50%]   md:top-[600px] lg:left-[170px] top-[600px]  lg:top-[421px] transform -translate-x-[50%] -translate-y-[50%]   lg:-translate-x-[0%] lg:-translate-y-[0%] bg-[#0BB501] rounded-[8px]">
+        <div className="absolute hover:drop-shadow-xl  hover:bg-blue-400  focus:bg-blue-600 active:bg-blue-500  w-[237px] flex flex-row justify-center items-center h-[48px] lg:h-[58px] lg:h-[58px]  left-[50%]   md:top-[670px] lg:left-[170px] top-[600px]  lg:top-[421px] transform -translate-x-[50%] -translate-y-[50%]   lg:-translate-x-[0%] lg:-translate-y-[0%] bg-[#0BB501] rounded-[8px]">
           <a
-            href="/projectpartner#join"
+            href="/projectpartner#projectjoin"
             className="w-[104px] item-start font-inter font-semibold lg:w-[155px] flex lg:h-[29px] text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0"
           >
             Register Now
@@ -54,7 +54,7 @@ export default function HeroSection() {
 
         {/* HeroSection Video */}
 
-        <div className=" flex flex-col md:items-center  ">
+        <div className=" flex flex-col mx-auto lg:mx-0 md:items-center  ">
           <div className="absolute w-[360px] md:w-[500px] h-[250px]  left-[50%] transform -translate-x-[50%] -translate-y-[50%] lg:left-[73%] lg:top-[50%] lg:p-0  top-[400px] md:top-[380px]  filter drop-shadow-[0px_4px_8px_rgba(0,0,0,0.1)] px-3 lg:p-0 lg:w-[500px]">
             <img src="/hero_section_video.png" alt="video" />
             {/* Video icon svg */}
@@ -64,7 +64,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="hidden md:hidden lg:flex absolute flex flex-col items-start md:p-5 lg:p-[24px] gap-[12px]  h-[124px] md:left-[570px] lg:left-[1000px] md:top-[390px] lg:top-[520px] bg-[rgba(255,_255,_255,_0.4)] backdrop-blur-[25px] rounded-[12px]">
+        <div className="hidden md:hidden lg:flex absolute flex flex-col items-start md:p-5 lg:p-[24px] gap-[12px]  h-[124px] md:left-[570px] lg:left-[1000px] md:top-[390px] lg:top-[480px] bg-[rgba(255,_255,_255,_0.4)] backdrop-blur-[25px] rounded-[12px]">
           {/* Partner with Reparv*/}
           <div className="w-[202px] h-[19px] font-inter font-semibold text-[16px] leading-[19px] text-[#000000] flex-none order-0 self-stretch flex-grow-0">
             Partner with Reparv!

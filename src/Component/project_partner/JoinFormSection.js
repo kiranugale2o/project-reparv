@@ -81,27 +81,27 @@ export default function JoinFormSection() {
   return (
     <>
       <div
-        id="join"
-        className=" absolute flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3603px] top-[5700px]"
+        id="projectjoin"
+        className=" absolute flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3503px] top-[5700px]"
       >
         {/* Form title */}
-        <div className="flex relative lg:left-[1%] md:left-[5%]  flex-col lg:justify-center items-center p-0 gap-4 lg:w-[307px] h-[152px]">
-          <div className=" w-full md:w-[350px] lg:w-[650px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
+        <div className="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
+          <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#076300] text-[28px] lg:text-[40px] leading-[48px]">
             Become A Project Partner
           </div>
 
-          <div className="w-full p-2 lg:p-0 md:w-[358px]  lg:w-[427px] h-[62px] text-center   text-[#999999] lg:text-black text-[16px] leading-[19px] lg:leading-[160%]  ">
+          <div className="p-2 lg:w-[614px] h-[60px] lg:h-[48px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] text-center">
             Fill out the form below to register your interest and take the first
             step towards a profitable partnership.
           </div>
 
-          {/* green line */}
-          <div className="hidden lg:flex w-[100px] h-0 border-2  border-[#0BB501]"></div>
+          {/* Orange line */}
+          <div className="w-[100px] h-0 border-[2px]  border-[#076300]"></div>
         </div>
 
         <div className="  box-border  md:ml-0  lg:ml-10 lg:ml-0 lg:left-[1%] flex flex-col items-center w-full   p-5 lg:p-[32px] lg:px-[36px] lg:gap-[24px] lg:w-[703px] h-[980px] lg:h-[707px] bg-white border border-[#0000001a] rounded-[10px]">
           {/* Register Your Interest */}
-          <div className="hidden lg:flex lg:w-[235px]  h-[36px] font-inter font-medium text-[24px] lg:leading-[150%] text-center text-[#076300]">
+          <div className="hidden lg:flex md:flex lg:w-[235px]  h-[36px] font-inter font-medium text-[24px] lg:leading-[150%] text-center text-[#076300]">
             Register Your Interest
           </div>
           {/* Form Fields */}
