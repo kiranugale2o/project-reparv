@@ -52,25 +52,54 @@ export default function Headers() {
                 className={` font-inter font-semibold text-[16px] leading-[36px] flex items-center capitalize  ${
                   currentPath == "/territorypartner"
                     ? "text-[#004170]"
-                    : "text-[#0BB501] "
+                    : `${
+                        currentPath == "/projectpartner"
+                          ? "text-[#0BB501]"
+                          : "text-[#F97316]"
+                      }
+                    `
                 } flex-none  flex-grow-0`}
               >
-                {currentPath == "/territorypartner"
-                  ? "Territory Partner"
-                  : "Project Partner"}
+                {currentPath == "/territorypartner" ? (
+                  "Territory Partner"
+                ) : (
+                  <>
+                    {" "}
+                    {currentPath == "/projectpartner"
+                      ? "Project Partner"
+                      : "Onboarding Partner"}
+                  </>
+                )}
                 <svg
                   width="24"
                   height="24"
                   stroke={`  ${
                     currentPath == "/territorypartner"
                       ? "[#026FBE]"
-                      : "[#0BB501]"
+                      : `${
+                          currentPath == "/projectpartner"
+                            ? "[#0BB501]"
+                            : "text-[#F97316]"
+                        }
+                    `
                   } `}
                   viewBox="0 0 24 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path d="M12 15L7 10H17L12 15Z" fill="#0BB501" />
+                  <path
+                    d="M12 15L7 10H17L12 15Z"
+                    fill={`${
+                      currentPath == "/territorypartner"
+                        ? "#004170"
+                        : `${
+                            currentPath == "/projectpartner"
+                              ? "#0BB501"
+                              : "#F97316"
+                          }
+                    `
+                    } `}
+                  />
                 </svg>
               </div>
               <a
@@ -99,10 +128,15 @@ export default function Headers() {
           About Us
         </a>
         <div
-          className={` font-inter font-semibold text-[16px] leading-[36px] flex items-center capitalize ${
+          className={` font-inter font-semibold text-[16px] leading-[36px] flex items-center capitalize  ${
             currentPath == "/territorypartner"
-              ? "text-[#026FBE]"
-              : "text-[#0BB501] "
+              ? "text-[#004170]"
+              : `${
+                  currentPath == "/projectpartner"
+                    ? "text-[#0BB501]"
+                    : "text-[#F97316]"
+                }
+                    `
           } flex-none  flex-grow-0`}
         >
           {currentPath == "/territorypartner" ? (
@@ -112,23 +146,31 @@ export default function Headers() {
               {" "}
               {currentPath == "/projectpartner"
                 ? "Project Partner"
-                : "Onboaring Partner"}
+                : "Onboarding Partner"}
             </>
           )}
           <svg
             width="24"
             height="24"
+            stroke={`  ${
+              currentPath == "/territorypartner"
+                ? "[#004170]"
+                : `${
+                    currentPath == "/projectpartner" ? "[#0BB501]" : "[#F97316]"
+                  }
+                    `
+            } `}
             viewBox="0 0 24 24"
             fill="none"
-            stroke={` ${
-              currentPath == "/territorypartner" ? "#026FBE" : "#0BB501"
-            } `}
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M12 15L7 10H17L12 15Z"
-              fill={` ${
-                currentPath == "/territorypartner" ? "#026FBE" : "#0BB501"
+              fill={`${
+                currentPath == "/territorypartner"
+                  ? "#004170"
+                  : `${currentPath == "/projectpartner" ? "#0BB501" : "#F97316"}
+                    `
               } `}
             />
           </svg>
