@@ -17,9 +17,9 @@ export default function OnboardingSolutionSection() {
       </div>
       <div className="flex  relative flex-col w-full items-center">
         {/* first row of Cards */}
-        <div className="flex flex-col p-2 lg:ml-0  w-full md:w-[500px] lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center w-full sm:w-[500px] p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[500px] md:mx-auto h-[158px] lg:h-[239px]  bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[480px] h-[158px] lg:h-[239px]  bg-white bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#FFF8F1] hover:bg-[#F7EFD8]">
                 <svg
@@ -248,7 +248,7 @@ export default function OnboardingSolutionSection() {
         {/* Boxes */}
         <div className="flex flex-col lg:flex-row justify-center items-center p-0 gap-[30px] w-full h-[1200px] lg:h-[323px] ">
           {/* Students Box */}
-          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div className="flex flex-col p-5 lg:p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
               <svg
                 width="25"
@@ -273,7 +273,7 @@ export default function OnboardingSolutionSection() {
             </p>
           </div>
           {/* Working Professionals Box */}
-          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div className="flex flex-col p-5 lg:p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
               <svg
                 width="25"
@@ -298,7 +298,7 @@ export default function OnboardingSolutionSection() {
             </p>
           </div>
           {/* House Wives Box*/}
-          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div className="flex flex-col p-5 lg:p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
               <svg
                 width="24"
@@ -323,7 +323,7 @@ export default function OnboardingSolutionSection() {
             </p>
           </div>
           {/* Property Owners Box */}
-          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div className="flex flex-col p-5 lg:p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
               <svg
                 width="25"
@@ -348,7 +348,7 @@ export default function OnboardingSolutionSection() {
             </p>
           </div>
           {/* Anyone with Interest Box */}
-          <div className="flex flex-col p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
+          <div className="flex flex-col p-5 lg:p-10  items-center lg:p-[36px] gap-[16px] lg:w-[203px] lg:h-[323px] w-full h-[193px]  bg-[rgba(255,255,255,0.1)] hover:bg-[rgba(255,255,255,0.1)] hover:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] active:shadow-[0px_-8px_16px_rgba(255,255,255,0.3),0px_8px_16px_rgba(255,255,255,0.3)] rounded-[12px]">
             <div className="relative w-[20px] h-[20px] p-5 rounded-full bg-[#FFF8F1] bg-[rgba(255,255,255,0.1)]">
               <svg
                 width="25"

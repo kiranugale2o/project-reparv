@@ -82,7 +82,7 @@ export default function TerritoryJoinFormSection() {
     <>
       <div
         id="territory_partner_join"
-        className=" absolute flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3503px] top-[6750px]"
+        className=" absolute  flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3503px] top-[6750px]"
       >
         {/* Form title */}
         <div className="flex mx-auto  flex-col lg:justify-center items-center p-0 gap-4 lg:w-[307px] h-[152px]">
@@ -100,7 +100,7 @@ export default function TerritoryJoinFormSection() {
 
         {/* Register form */}
 
-        <div className="flex   flex-col lg:flex-row items-start  justify-center w-full   p-2 lg:p-0 w-full lg:w-[996px] h-[1030px] lg:h-[707px]">
+        <div className="flex  sm:mx-auto   flex-col lg:flex-row items-start  justify-center w-full   p-2 lg:p-0 w-full lg:w-[996px] h-[1030px] lg:h-[707px]">
           {/* banner for desktop screen */}
           <div className=" hidden lg:flex flex-col items-start p-8 gap-8 w-[293px] h-[707px] bg-[#065B9C] rounded-lg">
             <div className="flex flex-col items-start p-0 gap-6 w-[229px] h-[178px]">
@@ -188,12 +188,15 @@ export default function TerritoryJoinFormSection() {
             </div>
           </div>
 
-          <div className="flex  mx-auto  flex-col  lg:mx-0 items-start  mt-[10px] lg:mt-0 p-4 lg:p-8 gap-6  lg:w-[703px] h-[1020px] lg:h-[707px] bg-white border-l border-t border-b border-[#e5e5e5] shadow-lg rounded-r-lg">
-            <div className="font-inter md:mx-auto font-medium text-2xl text-[#026FBE]">
+          <div className="flex mx-auto    flex-col  lg:mx-0 items-start  mt-[10px] lg:mt-0 p-4 lg:p-8 gap-6  lg:w-[703px] h-[1020px] lg:h-[707px] bg-white border-l border-t border-b border-[#e5e5e5] shadow-lg rounded-r-lg">
+            <div className="font-inter mx-auto md:mx-auto font-medium text-2xl text-[#026FBE]">
               Register Your Interest
             </div>
-            <form onSubmit={handleSubmit}>
-              <div className="flex flex-col items-start p-0 md:mx-auto lg:mx-0 gap-5 w-[300px]    lg:w-[631px]  lg:h-[468px]">
+            <form
+              onSubmit={handleSubmit}
+              className="mx-auto sm:mx-auto md:mx-0"
+            >
+              <div className="flex flex-col  items-start p-0 md:mx-auto lg:mx-0 gap-5 w-[300px]    lg:w-[631px]  lg:h-[468px]">
                 <div className="flex flex-col lg:flex-row  items-start p-0 gap-7  w-full  lg:w-[631px] h-[200px] lg:h-[84px]">
                   <div className="flex flex-col items-start  p-0 gap-4  lg:w-[300.5px] md:w-[500px]  w-full h-[84px]">
                     <label className="font-inter font-medium text-sm text-black">

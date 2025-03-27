@@ -67,11 +67,11 @@ export default function OnboardingHeroSection() {
           {/*orange line */}
           <div className="w-[100px] h-0 border-2 border-[#F97316]"></div>
 
-          <div class="w-16 h-16 flex-none order-1 flex-grow-0 relative">
+          <div className="w-16 h-16 flex-none order-1 flex-grow-0 relative">
             {/* Icons background */}
-            <div class="absolute w-16 h-16 mt-5 mx-auto rounded-full bg-[#FEECDC]"></div>
+            <div className="absolute w-16 h-16 mt-5 mx-auto rounded-full bg-[#FEECDC]"></div>
             {/* Icons */}
-            <div class="absolute absolute left-[28.29%] right-[38.29%] top-[52.75%]  ">
+            <div className="absolute absolute left-[28.29%] right-[38.29%] top-[52.75%]  ">
               <svg
                 width="27"
                 height="32"

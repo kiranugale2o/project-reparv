@@ -199,8 +199,8 @@ export default function OnboardingMarketReality() {
         </div>
 
         {/* Third row of Cards */}
-        <div className="flex mx-auto items-center justify-center p-2 w-full md:w-[500px] sm:w-[500px]">
-          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+          <div className="flex flex-col items-start p-4 gap-4 w-full sm:w-[500px] lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
                 <svg
