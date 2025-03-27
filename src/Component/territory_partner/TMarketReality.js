@@ -11,7 +11,7 @@ export default function TerritoryPartnerMarketSection() {
           Understanding the challenges in today's real estate market
         </div>
 
-        {/* green line */}
+        {/* blue line */}
         <div className="w-[100px] h-0 border-[2px]  border-[#026FBE]"></div>
       </div>
       <div className=" flex relative flex-col  w-full lg:items-center">

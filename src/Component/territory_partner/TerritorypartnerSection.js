@@ -6,7 +6,7 @@ export default function TerritoryPartnerSection() {
           Who is a Project Partner?
         </p>
 
-        {/* green line */}
+        {/*blue line */}
         <div className="w-[100px] mx-auto  h-0 border-2  border-[#026FBE]"></div>
 
         <div className="w-full mx-auto lg:gap-[0px] lg:mt-10 item-center flex flex-col lg:flex-row">

@@ -94,7 +94,7 @@ export default function TerritoryJoinFormSection() {
             Take the first step towards a successful partnership with Reparv
           </div>
 
-          {/* green line */}
+          {/* blue line */}
           <div className="hidden lg:flex w-[100px] h-0 border-2  border-[#004170]"></div>
         </div>
 
