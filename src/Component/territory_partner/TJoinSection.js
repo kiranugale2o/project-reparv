@@ -82,7 +82,7 @@ export default function TerritoryJoinFormSection() {
     <>
       <div
         id="territory_partner_join"
-        className=" absolute  flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3503px] top-[6750px]"
+        className=" absolute  flex flex-col w-full item-center p-2 lg:items-center gap-[32px]  h-[867px] lg:h-[1027px] lg:top-[3503px] top-[5450px]"
       >
         {/* Form title */}
         <div className="flex mx-auto  flex-col lg:justify-center items-center p-0 gap-4 lg:w-[307px] h-[152px]">

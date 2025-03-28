@@ -14,13 +14,15 @@ export default function TerritoryPartnerMarketSection() {
         {/* blue line */}
         <div className="w-[100px] h-0 border-[2px]  border-[#026FBE]"></div>
       </div>
-      <div className=" flex relative flex-col  w-full lg:items-center">
-        {/*First Cards */}
-        <div className=" flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+
+      {/* Market Reality Cards */}
+      <div className="flex relative flex-col  w-full mx-auto items-center">
+        {/* first row of Cards */}
+        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row  items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
-            <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px]  bg-white bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="24"
                   height="24"
@@ -37,18 +39,18 @@ export default function TerritoryPartnerMarketSection() {
               </div>
             </div>
 
-            <div className="w-[233px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[203px]  h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               High Competition
             </div>
 
-            <div className="w-[310px] mt-5 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] lg:lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Saturated market with numerous competing players
             </div>
           </div>
           {/* Card 2 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
-            <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="24"
                   height="24"
@@ -65,17 +67,18 @@ export default function TerritoryPartnerMarketSection() {
               </div>
             </div>
 
-            <div className="w-[233px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[30px] flex-none order-1 flex-grow-0">
+            <div className="w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Limited Customer Reach
             </div>
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+
+            <div className="w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Difficulty accessing potential buyers
             </div>
           </div>
           {/* Card 3 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
-            <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="24"
                   height="24"
@@ -92,23 +95,22 @@ export default function TerritoryPartnerMarketSection() {
               </div>
             </div>
 
-            <div className="w-[233px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="lg:w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Unorganized Market
             </div>
 
-            <div className="w-[310px] mt-5 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="lg:w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Fragmented industry lacking standardization
             </div>
           </div>
         </div>
 
-        {/* Second Row Card */}
-
+        {/* Second Row Cards with */}
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
-            <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px]  bg-white bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="24"
                   height="24"
@@ -125,18 +127,18 @@ export default function TerritoryPartnerMarketSection() {
               </div>
             </div>
 
-            <div className="w-[233px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-full lg:w-[203px]  h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Lack of Skilled Sales Workforce
             </div>
 
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Shortage of qualified sales professionals
             </div>
           </div>
           {/* Card 2 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
-            <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="24"
                   height="24"
@@ -153,17 +155,18 @@ export default function TerritoryPartnerMarketSection() {
               </div>
             </div>
 
-            <div className="w-[283px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[30px] flex-none order-1 flex-grow-0">
+            <div className="w-[283px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Customer Trust Issues
             </div>
-            <div className="w-[310px] mt-5 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+
+            <div className="w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Skepticism due to industry reputation problems
             </div>
           </div>
           {/* Card 3 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
-            <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="24"
                   height="24"
@@ -180,21 +183,22 @@ export default function TerritoryPartnerMarketSection() {
               </div>
             </div>
 
-            <div className="w-[283px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="lg:w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Scalability Challenges
             </div>
-            <div className="w-[310px] mt-5 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+
+            <div className="lg:w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Obstacles to growing business operations
             </div>
           </div>
         </div>
-        {/* Third Row Cards with */}
 
-        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+        {/* Third row of Cards */}
+        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row w-full    items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
-            <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 w-[340px] sm:w-[350px] lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="24"
                   height="24"
@@ -211,18 +215,19 @@ export default function TerritoryPartnerMarketSection() {
               </div>
             </div>
 
-            <div className="w-[233px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="lg:w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Lead Conversion Struggles
             </div>
 
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="lg:w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Difficulty turning prospects into clients
             </div>
           </div>
+
           {/* Card 2 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
-            <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 w-[340px] sm:w-[350px] lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="24"
                   height="24"
@@ -239,17 +244,17 @@ export default function TerritoryPartnerMarketSection() {
               </div>
             </div>
 
-            <div className="w-[233px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[30px] flex-none order-1 flex-grow-0">
+            <div className="lg:w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Technology Adaptation
             </div>
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="lg:w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Keeping pace with digital transformation
             </div>
           </div>
           {/* Card 3 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-white border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
-            <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">
+          <div className="flex flex-col items-start p-4 gap-4 w-[340px] sm:w-[350px] lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
+            <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0E5EB]">
                 <svg
                   width="24"
                   height="24"
@@ -266,11 +271,11 @@ export default function TerritoryPartnerMarketSection() {
               </div>
             </div>
 
-            <div className="w-[233px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="lg:w-[233px] h-[24px] lg:h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Market Fluctuations
             </div>
 
-            <div className="w-[310px] mt-5 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="lg:w-[310px] lg:mt-5 text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Navigating volatile market conditions
             </div>
           </div>

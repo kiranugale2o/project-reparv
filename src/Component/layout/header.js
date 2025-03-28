@@ -55,7 +55,12 @@ export default function Headers() {
                     : `${
                         currentPath == "/projectpartner"
                           ? "text-[#0BB501]"
-                          : "text-[#F97316]"
+                          : `${
+                              currentPath == "/onboardingpartner"
+                                ? " text-[#F97316]"
+                                : "text-[#0BB501]"
+                            }
+                    `
                       }
                     `
                 } flex-none  flex-grow-0`}
@@ -65,9 +70,16 @@ export default function Headers() {
                 ) : (
                   <>
                     {" "}
-                    {currentPath == "/projectpartner"
-                      ? "Project Partner"
-                      : "Onboarding Partner"}
+                    {currentPath == "/projectpartner" ? (
+                      "Project Partner"
+                    ) : (
+                      <>
+                        {" "}
+                        {currentPath == "/onboardingpartner"
+                          ? "Onboarding Partner"
+                          : "Project Partner"}
+                      </>
+                    )}
                   </>
                 )}
                 <svg
@@ -75,11 +87,16 @@ export default function Headers() {
                   height="24"
                   stroke={`  ${
                     currentPath == "/territorypartner"
-                      ? "[#026FBE]"
+                      ? "[#004170]"
                       : `${
                           currentPath == "/projectpartner"
                             ? "[#0BB501]"
-                            : "text-[#F97316]"
+                            : `${
+                                currentPath == "/onboardingpartner"
+                                  ? "[#F97316]"
+                                  : "[#0BB501]"
+                              }
+                    `
                         }
                     `
                   } `}
@@ -95,7 +112,12 @@ export default function Headers() {
                         : `${
                             currentPath == "/projectpartner"
                               ? "#0BB501"
-                              : "#F97316"
+                              : `${
+                                  currentPath == "/onboardingpartner"
+                                    ? "#F97316"
+                                    : "#0BB501"
+                                }
+                    `
                           }
                     `
                     } `}
@@ -134,7 +156,12 @@ export default function Headers() {
               : `${
                   currentPath == "/projectpartner"
                     ? "text-[#0BB501]"
-                    : "text-[#F97316]"
+                    : `${
+                        currentPath == "/onboardingpartner"
+                          ? "text-[#F97316]"
+                          : "text-[#0BB501]"
+                      }
+                    `
                 }
                     `
           } flex-none  flex-grow-0`}
@@ -144,9 +171,16 @@ export default function Headers() {
           ) : (
             <>
               {" "}
-              {currentPath == "/projectpartner"
-                ? "Project Partner"
-                : "Onboarding Partner"}
+              {currentPath == "/projectpartner" ? (
+                "Project Partner"
+              ) : (
+                <>
+                  {" "}
+                  {currentPath == "/onboardingpartner"
+                    ? "Onboarding Partner"
+                    : "Project Partner"}
+                </>
+              )}
             </>
           )}
           <svg
@@ -156,7 +190,14 @@ export default function Headers() {
               currentPath == "/territorypartner"
                 ? "[#004170]"
                 : `${
-                    currentPath == "/projectpartner" ? "[#0BB501]" : "[#F97316]"
+                    currentPath == "/projectpartner"
+                      ? "[#0BB501]"
+                      : `${
+                          currentPath == "/onboardingpartner"
+                            ? "[#F97316]"
+                            : "[#0BB501]"
+                        }
+                    `
                   }
                     `
             } `}
@@ -169,7 +210,16 @@ export default function Headers() {
               fill={`${
                 currentPath == "/territorypartner"
                   ? "#004170"
-                  : `${currentPath == "/projectpartner" ? "#0BB501" : "#F97316"}
+                  : `${
+                      currentPath == "/projectpartner"
+                        ? "#0BB501"
+                        : `${
+                            currentPath == "/onboardingpartner"
+                              ? "#F97316"
+                              : "#0BB501"
+                          }
+                    `
+                    }
                     `
               } `}
             />

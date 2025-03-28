@@ -15,9 +15,10 @@ export default function OnboardingSolutionSection() {
         {/* Orange line */}
         <div className="w-[100px] h-0 border-[2px]  border-[#F97316]"></div>
       </div>
+      {/* Solution Cards */}
       <div className="flex  relative flex-col w-full items-center">
         {/* first row of Cards */}
-        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center w-full sm:w-[500px] p-0 gap-[30px] lg:w-[1134px] ">
+        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center  sm:w-[500px] p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
           <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[480px] h-[158px] lg:h-[239px]  bg-white bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
@@ -108,7 +109,7 @@ export default function OnboardingSolutionSection() {
         </div>
 
         {/* Second Row Cards with */}
-        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center   sm:w-[500px] p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
           <div className="flex flex-col items-start p-4 gap-4 w-full lg:w-[358px] md:w-[500px] md:mx-auto h-[158px] lg:h-[239px]  bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] bg-white hover:bg-[#FBF8F1] active:bg-[#FBF8F1] border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">

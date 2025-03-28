@@ -1,13 +1,13 @@
 export default function TerritorySolutionSection() {
   return (
-    <div className=" absolute flex flex-col items-center gap-8 w-full top-[4000px] left-0 lg:top-[2358px] md:top-[4100px]">
+    <div className=" absolute flex flex-col items-center gap-8 w-full top-[3300px] left-0 lg:top-[2358px] md:top-[3400px]">
       {/*Solutions in Reparv Heading  */}
       <div className="flex relative  md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
         <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold  text-[#004170] text-[28px] lg:text-[40px] leading-[48px]">
           Solutions in Reparv
         </div>
 
-        <div className=" lg:w-[534px] h-[40px] md:h-[30px] lg:h-[28px] text-[#999999] text-[16px] font-medium leading-[24px] text-center">
+        <div className=" lg:w-[534px] h-[40px] md:h-[30px] lg:h-[28px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] text-center">
           How we overcome market challenges together
         </div>
 
@@ -18,9 +18,9 @@ export default function TerritorySolutionSection() {
         {/*First Row  Cards */}
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div className="w-[340px] lg:w-[358px]   h-[172px] lg:h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-[#E0EEFE] ">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full  bg-[#E0EEFE] ">
                 <svg
                   width="16"
                   height="20"
@@ -37,18 +37,18 @@ export default function TerritorySolutionSection() {
               </div>
             </div>
 
-            <div className="w-[283px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[283px] mt-5 h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Strong Brand & Market Positioning
             </div>
 
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] lg:mt-10 h-[144px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Leverage Reparv's established market presence and reputation
             </div>
           </div>
           {/* Card 2 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div className="w-[340px] lg:w-[358px]   h-[172px] lg:h-[240px] p-6 gap-6 bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#F7EFD8]">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#F7EFD8]">
                 <svg
                   width="24"
                   height="24"
@@ -65,17 +65,17 @@ export default function TerritorySolutionSection() {
               </div>
             </div>
 
-            <div className="w-[283px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[30px] flex-none order-1 flex-grow-0">
+            <div className="w-[283px] mt-5 h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[30px] flex-none order-1 flex-grow-0">
               Transparent & Verified Listings
             </div>
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] lg:mt-10 h-[144px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Access to thoroughly vetted property listings
             </div>
           </div>
           {/* Card 3 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div className="w-[340px] lg:w-[358px]   h-[172px] lg:h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0EEFE] ">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#E0EEFE] ">
                 <svg
                   width="24"
                   height="24"
@@ -92,11 +92,11 @@ export default function TerritorySolutionSection() {
               </div>
             </div>
 
-            <div className="w-[283px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[283px] mt-5 h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[20px] lg:leading-[36px] flex-none order-1 flex-grow-0">
               Advanced Marketing & Lead Generation
             </div>
 
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] mt-5 lg:mt-10 h-[144px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Cutting-edge strategies to attract qualified prospects
             </div>
           </div>
@@ -106,9 +106,9 @@ export default function TerritorySolutionSection() {
 
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6  bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div className="w-[340px] lg:w-[358px]   h-[172px] lg:h-[240px] p-6 gap-6  bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#F7EFD8]">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#F7EFD8]">
                 <svg
                   width="22"
                   height="16"
@@ -125,18 +125,18 @@ export default function TerritorySolutionSection() {
               </div>
             </div>
 
-            <div className="w-[283px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[283px] mt-5 h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Sales Team Training & Support
             </div>
 
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] lg:mt-10 h-[144px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Shortage of qualified sales professionals
             </div>
           </div>
           {/* Card 2 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div className="w-[340px] lg:w-[358px]   h-[172px] lg:h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-[#E0EEFE] ">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full  bg-[#E0EEFE] ">
                 <svg
                   width="16"
                   height="20"
@@ -153,17 +153,17 @@ export default function TerritorySolutionSection() {
               </div>
             </div>
 
-            <div className="w-[283px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[30px] flex-none order-1 flex-grow-0">
+            <div className="w-[283px] mt-5 h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[30px] flex-none order-1 flex-grow-0">
               Verified Properties & Transparent Deals
             </div>
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] mt-5 lg:mt-10 h-[144px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Skepticism due to industry reputation problems
             </div>
           </div>
           {/* Card 3 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#FBF8F1]  border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div className="w-[340px] lg:w-[358px]   h-[172px] lg:h-[240px] p-6 gap-6 bg-[#FBF8F1]  border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#F7EFD8]">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#F7EFD8]">
                 <svg
                   width="24"
                   height="24"
@@ -180,11 +180,11 @@ export default function TerritorySolutionSection() {
               </div>
             </div>
 
-            <div className="w-[303px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[303px] mt-5 h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[20px] lg:leading-[36px] flex-none order-1 flex-grow-0">
               Business Growth Strategies & Expansion Support
             </div>
 
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] mt-5 lg:mt-10 h-[144px] text-[#999999] text-[12px] lg:text-[16px] font-medium  leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Obstacles to growing business operations
             </div>
           </div>
@@ -194,9 +194,9 @@ export default function TerritorySolutionSection() {
 
         <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
           {/* Card 1 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div className="w-[340px] lg:w-[358px]   h-[172px] lg:h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-[#E0EEFE] ">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full  bg-[#E0EEFE] ">
                 <svg
                   width="24"
                   height="24"
@@ -213,18 +213,18 @@ export default function TerritorySolutionSection() {
               </div>
             </div>
 
-            <div className="w-[283px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[283px] mt-5 h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Lead Conversion Struggles
             </div>
 
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] lg:mt-10 h-[144px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Difficulty turning prospects into clients
             </div>
           </div>
           {/* Card 2 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div className="w-[340px] lg:w-[358px]   h-[172px] lg:h-[240px] p-6 gap-6 bg-[#FBF8F1] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#F7EFD8]">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full bg-[#F7EFD8]">
                 <svg
                   width="24"
                   height="24"
@@ -241,17 +241,17 @@ export default function TerritorySolutionSection() {
               </div>
             </div>
 
-            <div className="w-[233px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[30px] flex-none order-1 flex-grow-0">
+            <div className="w-[233px] mt-5 h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[30px] flex-none order-1 flex-grow-0">
               Technology Adaptation
             </div>
-            <div className="w-[310px] mt-10 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] lg:mt-10 h-[144px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Keeping pace with digital transformation
             </div>
           </div>
           {/* Card 3 */}
-          <div className="w-[340px] lg:w-[358px]   h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
+          <div className="w-[340px] lg:w-[358px]   h-[172px] lg:h-[240px] p-6 gap-6 bg-[#F0F7FF] border border-gray-200 shadow-lg rounded-br-2xl rounded-tl-none">
             <div className="w-[40px]  h-[20px] flex-none order-0 flex-grow-0 relative">
-              <div className="absolute w-[20px] h-[20px] p-4 rounded-full  bg-[#E0EEFE] ">
+              <div className="absolute w-[20px] h-[20px] p-5 rounded-full  bg-[#E0EEFE] ">
                 <svg
                   width="24"
                   height="24"
@@ -268,11 +268,11 @@ export default function TerritorySolutionSection() {
               </div>
             </div>
 
-            <div className="w-[283px] mt-5 h-[36px] text-black text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
+            <div className="w-[283px] mt-5 h-[36px] text-black text-[16px] lg:text-[24px] font-medium leading-[36px] flex-none order-1 flex-grow-0">
               Market Fluctuations
             </div>
 
-            <div className="w-[310px] mt-5 h-[144px] text-[#999999] text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
+            <div className="w-[310px] lg:mt-5 h-[144px] text-[#999999] text-[12px] lg:text-[16px] font-medium leading-[24px] flex-none order-2 self-stretch flex-grow-0">
               Navigating volatile market conditions
             </div>
           </div>
