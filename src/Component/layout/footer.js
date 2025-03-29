@@ -6,14 +6,20 @@ export default function Footer() {
 
   return (
     <div
-      className={`  flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full h-[420px] lg:h-[506px] left-0 ${
+      className={`  flex flex-col items-start p-6  lg:p-24 gap-[40px] absolute w-full lg:w-full h-[420px] lg:h-[506px]  bg-black left-0 ${
         currentPath == "/territorypartner"
-          ? "top-[6760px]"
+          ? "lg:top-[4680px] top-[6760px]"
           : `${
-              currentPath == "/projectpartner" ? "top-[6950px]" : "top-[6760px]"
+              currentPath == "/projectpartner"
+                ? "lg:top-[4680px] top-[6950px]"
+                : `${
+                    currentPath == "/salespartner"
+                      ? "lg:top-[4381px] top-[6700px] "
+                      : "lg:top-[4680px] top-[6760px]"
+                  }`
             }
                     `
-      } lg:top-[4681px] bg-black`}
+      } `}
     >
       {/* logo */}
       <div className="flex flex-row items-start p-5 md:w-[180px] h-[90px] lg:p-0 lg:w-[137.58px] lg:h-[58px] flex-none order-0 flex-grow-0">

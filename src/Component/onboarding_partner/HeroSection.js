@@ -3,7 +3,7 @@ export default function OnboardingHeroSection() {
     <div className="w-full flex flex-col p-0 m-0   ">
       <div className="absolute flex flex-col w-full h-[480px] lg:h-[530px] md:h-[700px] left-0 lg:top-[70px]  bg-[url('/territorypartner_back.png')] bg-white/77 bg-cover rounded-[2px] backdrop-blur-[15px]  ">
         <div className="hidden md:flex lg:w-[180px] border absolute lg:flex flex-row justify-center items-center lg:p-2 h-[35px] md:left-[52px] lg:left-[172px] md:top-[100px] lg:top-[84px] bg-[rgba(255,_255,_255,_0.6)] rounded-[30px] ">
-          <p className="w-full lg:w-[157px] h-[19px] px-1 font-inter font-semibold text-[16px] leading-[19px] text-[#F97316] ">
+          <p className="w-full lg:w-[157px] h-[19px] px-1 font-inter font-semibold text-[16px] leading-[19px] text-[#1E1E1E] ">
             Onboarding Partner
           </p>
         </div>
@@ -14,7 +14,7 @@ export default function OnboardingHeroSection() {
             <h1 className=" font-inter font-bold  text-[36px] lg:text-[50px] font-bold leading-[40px] lg:leading-[50px] text-[#000000] ">
               Onboarding Partner
             </h1>
-            <div className=" font-inter lg:font-sans  leading-[19px] text-center lg:text-start  flex-none order-0 self-stretch flex-grow-0 lg:flex w-full px-3 lg:p-0  lg:w-[450px] h-[38px]  font-semibold text-[16px] lg:text-[24px] lg:leading-[29px] text-[#F97316]">
+            <div className=" font-inter lg:font-sans  leading-[19px] text-center lg:text-start  flex-none order-0 self-stretch flex-grow-0 lg:flex w-full px-3 lg:p-0  lg:w-[450px] h-[38px]  font-semibold text-[16px] lg:text-[24px] lg:leading-[29px] text-[#1E1E1E]">
               Monetize Your Network – List Properties & Get Bonuses!
             </div>
             <div className=" text-center lg:text-start flex  lg:mt-3 lg:font-normal md:text-[20px] lg:text-[20px] lg:leading-[24px] text-[rgba(0,_0,_0,_0.6)] flex-none ">
@@ -24,10 +24,10 @@ export default function OnboardingHeroSection() {
           </div>
 
           {/* Register Button of  Onboarding  */}
-          <div className="absolute hover:drop-shadow-xl  hover:bg-blue-400  focus:bg-blue-600 active:bg-blue-500  w-[237px] flex flex-row justify-center items-center h-[48px] lg:h-[58px] lg:h-[58px]  left-[50%]   md:top-[740px] lg:left-[170px] top-[550px]  lg:top-[381px] transform -translate-x-[50%] -translate-y-[50%]   lg:-translate-x-[0%] lg:-translate-y-[0%] bg-[#F97316] rounded-[8px]">
+          <div className="absolute hover:drop-shadow-xl  hover:bg-gray-500   focus:bg-blue-600 active:bg-blue-500  w-[237px] flex flex-row justify-center items-center h-[48px] lg:h-[58px] lg:h-[58px]  left-[50%]   md:top-[740px] lg:left-[170px] top-[550px]  lg:top-[381px] transform -translate-x-[50%] -translate-y-[50%]   lg:-translate-x-[0%] lg:-translate-y-[0%] bg-[#1E1E1E] rounded-[8px]">
             <a
               href="/onboardingpartner#onboardingjoin"
-              className="w-[104px] item-start font-inter font-semibold lg:w-[155px] flex lg:h-[29px] text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0"
+              className="w-[104px] item-start font-inter  font-semibold lg:w-[155px] flex lg:h-[29px] text-[16px] lg:text-[24px] leading-[29px] text-center text-[#FFFFFF] flex-none order-0 flex-grow-0"
             >
               Register Now
             </a>
@@ -60,12 +60,12 @@ export default function OnboardingHeroSection() {
       <div className="absolute w-full justify-evenly  lg:w-[747px] h-[342px] lg:left-[calc(50%-747px/2+0.5px)] top-[630px] md:top-[830px] lg:top-[700px] bg-white flex flex-col items-center p-0 gap-[32px]">
         <div className="lg:w-[747px] lg:h-[64px] flex flex-col items-center p-0 gap-[16px]">
           {/* Heading */}
-          <h1 className="w-[299px] md:w-full md:h-[48px] lg:w-[603px] h-[90px] lg:h-[48px] font-inter font-semibold text-[28px] lg:text-[40px]  lg:leading-[48px] text-center text-[#763000]">
+          <h1 className="w-[299px] md:w-full md:h-[48px] lg:w-[603px] h-[90px] lg:h-[48px] font-inter font-semibold text-[28px] lg:text-[40px]  lg:leading-[48px] text-center text-[#1E1E1E]">
             Who is an Onboarding Partner?
           </h1>
 
           {/*orange line */}
-          <div className="w-[100px] h-0 border-2 border-[#F97316]"></div>
+          <div className="w-[100px] h-0 border-2 border-[#1E1E1E]"></div>
 
           <div className="w-16 h-16 flex-none order-1 flex-grow-0 relative">
             {/* Icons background */}
@@ -81,7 +81,7 @@ export default function OnboardingHeroSection() {
               >
                 <path
                   d="M3.89922 32V20.2286C2.88589 19.1619 2.09922 17.9429 1.53922 16.5714C0.979219 15.2 0.699219 13.7397 0.699219 12.1905C0.699219 8.7873 1.93922 5.90476 4.41922 3.54286C6.89922 1.18095 9.92589 0 13.4992 0C17.0726 0 20.0992 1.18095 22.5792 3.54286C25.0592 5.90476 26.2992 8.7873 26.2992 12.1905C26.2992 13.7397 26.0192 15.2 25.4592 16.5714C24.8992 17.9429 24.1126 19.1619 23.0992 20.2286V32L13.4992 28.9524L3.89922 32ZM13.4992 21.3333C16.1659 21.3333 18.4326 20.4444 20.2992 18.6667C22.1659 16.8889 23.0992 14.7302 23.0992 12.1905C23.0992 9.65079 22.1659 7.49206 20.2992 5.71429C18.4326 3.93651 16.1659 3.04762 13.4992 3.04762C10.8326 3.04762 8.56589 3.93651 6.69922 5.71429C4.83255 7.49206 3.89922 9.65079 3.89922 12.1905C3.89922 14.7302 4.83255 16.8889 6.69922 18.6667C8.56589 20.4444 10.8326 21.3333 13.4992 21.3333ZM7.09922 27.4667L13.4992 25.9048L19.8992 27.4667V22.7429C18.9659 23.2508 17.9592 23.6508 16.8792 23.9429C15.7992 24.2349 14.6726 24.381 13.4992 24.381C12.3259 24.381 11.1992 24.2349 10.1192 23.9429C9.03922 23.6508 8.03255 23.2508 7.09922 22.7429V27.4667Z"
-                  fill="#F97316"
+                  fill="#1E1E1E"
                 />
               </svg>
             </div>

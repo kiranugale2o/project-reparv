@@ -205,14 +205,14 @@ export default function JoinFormSection() {
             </div>
 
             <div className="flex mt-5  md:ml-[80px] lg:ml-0 lg:mt-0 flex-row justify-center items-center gap-12 lg:w-[631px] h-[52px]">
-              <div className="flex  md:ml-[80px] lg:ml-0 hover:bg-blue-400 justify-center  items-center p-3.5 px-8 gap-[67px] w-[151px] h-[52px] bg-[#076300] rounded-md">
-                <button
-                  type="submit"
-                  className=" font-inter  font-semibold text-xl text-white"
-                >
+              <button
+                type="submit"
+                className="flex  md:ml-[80px] lg:ml-0 hover:bg-blue-400 justify-center  items-center p-3.5 px-8 gap-[67px] w-[151px] h-[52px] bg-[#076300] rounded-md"
+              >
+                <p className=" font-inter  font-semibold text-xl text-white">
                   Submit
-                </button>
-              </div>
+                </p>
+              </button>
             </div>
           </form>
           {/* Error and Success Messages */}

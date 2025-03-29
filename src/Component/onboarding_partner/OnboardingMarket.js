@@ -3,7 +3,7 @@ export default function OnboardingMarketReality() {
     <div className="absolute flex flex-col justify-between items-center p-0 gap-8  w-full  h-[518px]  top-[1100px]  lg:top-[1080px]">
       {/* Onboarding Market Reality Title  */}
       <div className="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
-        <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#763000] text-[28px] lg:text-[40px] leading-[48px]">
+        <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#1E1E1E] text-[28px] lg:text-[40px] leading-[48px]">
           Market Reality
         </div>
 
@@ -13,7 +13,7 @@ export default function OnboardingMarketReality() {
         </div>
 
         {/* Orange line */}
-        <div className="w-[100px] h-0 border-[2px]  border-[#F97316]"></div>
+        <div className="w-[100px] h-0 border-[2px]  border-[#1E1E1E]"></div>
       </div>
       <div className="flex relative flex-col mx-auto w-full items-center">
         {/* first row of Cards */}
@@ -199,7 +199,7 @@ export default function OnboardingMarketReality() {
         </div>
 
         {/* Third row of Cards */}
-        <div className="flex flex-col p-2 lg:ml-0 lg:flex-row items-center p-0 gap-[30px] lg:w-[1134px] ">
+        <div className="flex  flex-col p-2 lg:ml-0 lg:flex-row justify-center items-center p-0 gap-[30px] lg:w-[1134px] ">
           <div className="flex flex-col items-start p-4 gap-4 w-full sm:w-[500px] lg:w-[358px] h-[158px] lg:h-[239px] bg-white border border-[#0000001a] shadow-[0px_6px_16px_rgba(0,0,0,0.125)]  rounded-[0px_12px_12px_12px]">
             <div className="w-[40px] h-[20px] flex-none order-0 flex-grow-0 relative">
               <div className="absolute w-[20px] h-[20px] p-4 rounded-full bg-[#E0E5EB]">

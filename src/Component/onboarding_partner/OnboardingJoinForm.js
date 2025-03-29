@@ -87,7 +87,7 @@ export default function OnboardingJoinFormSection() {
         {/* Form title */}
 
         <div className="flex relative md:mx-auto lg:mx-0  flex-col justify-center items-center p-0 gap-4 lg:w-[747px] h-[152px]">
-          <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[#763000] text-[28px] lg:text-[40px] leading-[48px]">
+          <div className="w-full lg:w-[747px] h-[35px] lg:h-[48px] text-center font-semibold text-[ #1E1E1E] text-[28px] lg:text-[40px] leading-[48px]">
             Ready to Join Us?
           </div>
 
@@ -96,11 +96,11 @@ export default function OnboardingJoinFormSection() {
           </div>
 
           {/* Orange line */}
-          <div className="w-[100px] h-0 border-[2px]  border-[#F97316]"></div>
+          <div className="w-[100px] h-0 border-[2px]  border-[#1E1E1E]"></div>
         </div>
 
         <div className="flex mx-auto    flex-col  lg:mx-0 items-start  mt-[10px] lg:mt-0 p-4 lg:p-8 gap-6  lg:w-[703px] h-[1020px] lg:h-[707px] bg-white border-l border-t border-b border-[#e5e5e5] shadow-lg rounded-r-lg">
-          <div className="font-inter mx-auto md:mx-auto font-medium text-2xl text-[#F97316]">
+          <div className="font-inter lg:mx-0 mx-auto md:mx-auto font-medium text-2xl text-[ #1E1E1E]">
             Register Your Interest
           </div>
           <form onSubmit={handleSubmit} className="mx-auto sm:mx-auto md:mx-0">
@@ -205,14 +205,14 @@ export default function OnboardingJoinFormSection() {
             </div>
 
             <div className="flex mt-5  md:ml-[80px] lg:ml-0 lg:mt-0 flex-row justify-center items-center gap-12 lg:w-[631px] h-[52px]">
-              <div className="flex  md:ml-[80px] lg:ml-0 hover:bg-blue-400 justify-center  items-center p-3.5 px-8 gap-[67px] w-[151px] h-[52px] bg-[#F97316] rounded-md">
-                <button
-                  type="submit"
-                  className=" font-inter  font-semibold text-xl text-white"
-                >
+              <button
+                type="submit"
+                className="flex  md:ml-[80px] lg:ml-0 hover:bg-gray-400 justify-center  items-center p-3.5 px-8 gap-[67px] w-[151px] h-[52px] bg-[#1E1E1E] rounded-md"
+              >
+                <p className=" font-inter  font-semibold text-xl text-white">
                   Submit
-                </button>
-              </div>
+                </p>
+              </button>
             </div>
           </form>
           {/* Error and Success Messages */}

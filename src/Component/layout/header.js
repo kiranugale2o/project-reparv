@@ -57,7 +57,7 @@ export default function Headers() {
                           ? "text-[#0BB501]"
                           : `${
                               currentPath == "/onboardingpartner"
-                                ? " text-[#F97316]"
+                                ? " text-[#1E1E1E]"
                                 : "text-[#0BB501]"
                             }
                     `
@@ -75,9 +75,16 @@ export default function Headers() {
                     ) : (
                       <>
                         {" "}
-                        {currentPath == "/onboardingpartner"
-                          ? "Onboarding Partner"
-                          : "Project Partner"}
+                        {currentPath == "/onboardingpartner" ? (
+                          "Onboarding Partner"
+                        ) : (
+                          <>
+                            {" "}
+                            {currentPath == "/salespartner"
+                              ? "Join Our Team"
+                              : "Project Partner"}
+                          </>
+                        )}
                       </>
                     )}
                   </>
@@ -93,7 +100,7 @@ export default function Headers() {
                             ? "[#0BB501]"
                             : `${
                                 currentPath == "/onboardingpartner"
-                                  ? "[#F97316]"
+                                  ? "[#1E1E1E]"
                                   : "[#0BB501]"
                               }
                     `
@@ -114,7 +121,7 @@ export default function Headers() {
                               ? "#0BB501"
                               : `${
                                   currentPath == "/onboardingpartner"
-                                    ? "#F97316"
+                                    ? "#1E1E1E"
                                     : "#0BB501"
                                 }
                     `
@@ -158,7 +165,7 @@ export default function Headers() {
                     ? "text-[#0BB501]"
                     : `${
                         currentPath == "/onboardingpartner"
-                          ? "text-[#F97316]"
+                          ? "text-[#1E1E1E]"
                           : "text-[#0BB501]"
                       }
                     `
@@ -176,9 +183,16 @@ export default function Headers() {
               ) : (
                 <>
                   {" "}
-                  {currentPath == "/onboardingpartner"
-                    ? "Onboarding Partner"
-                    : "Project Partner"}
+                  {currentPath == "/onboardingpartner" ? (
+                    "Onboarding Partner"
+                  ) : (
+                    <>
+                      {" "}
+                      {currentPath == "/salespartner"
+                        ? "Join Our Team"
+                        : "Project Partner"}
+                    </>
+                  )}
                 </>
               )}
             </>
@@ -194,7 +208,7 @@ export default function Headers() {
                       ? "[#0BB501]"
                       : `${
                           currentPath == "/onboardingpartner"
-                            ? "[#F97316]"
+                            ? "[#1E1E1E]"
                             : "[#0BB501]"
                         }
                     `
@@ -215,7 +229,7 @@ export default function Headers() {
                         ? "#0BB501"
                         : `${
                             currentPath == "/onboardingpartner"
-                              ? "#F97316"
+                              ? "#1E1E1E"
                               : "#0BB501"
                           }
                     `
