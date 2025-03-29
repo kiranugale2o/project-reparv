@@ -64,7 +64,7 @@ export default function SalesHeroSection() {
           </div>
 
           {/* Paragraph */}
-          <div className="w-full md:w-[500px] md:mx-auto lg:w-[627px] h-[140px] lg:h-[95px] font-medium text-[12px] lg:text-[16px] leading-[19px] text-center text-[#666666]">
+          <div className="w-full md:w-[500px] md:mx-auto lg:w-[627px] h-[140px] lg:h-[95px] font-medium text-left text-[12px] lg:text-[16px] leading-[19px] lg:text-center text-[#666666]">
             <p>
               A Reparv Sales Partner is an independent professional who directly
               connects with customers, understands their needs, and recommends
